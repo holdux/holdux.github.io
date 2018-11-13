@@ -1,0 +1,26 @@
+/*************** Site-wide styling ***************/
+
+/* navbar */
+#myNavbar
+{
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: #5b5b5b;
+}
+
+a.menu-item{
+  color: #5b5b5b;
+}
+
+a.nav-active{
+  font-weight: 500;
+  color: #2d2d2d;
+}
+
+/*************** Home ***************/
+
+#homeheader
+{
+  font-size: 40px;
+  font-family: 'Muli', sans-serif;
+}
