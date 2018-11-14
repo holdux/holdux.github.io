@@ -1,0 +1,71 @@
+/*************** Medium devices (tablets, 768px and up) ***************/
+@media (min-width: 768px) {
+
+  /************* HOME ***************/
+  header {
+    height: 800px;
+  }
+
+  #homeheader h1 {
+    font-size: 50px;
+    padding-top: 30%;
+    padding-bottom: 3%;
+  }
+
+  #homeheader p {
+    font-size: 22px;
+  }
+
+  #homearrow {
+    margin-top: 40%;
+  }
+
+  .projetos {
+    height: 100%;
+  }
+
+  .projetos img {
+    max-height: 600px;
+    padding-top: 10%;
+    padding-bottom: 0%;
+  }
+
+  #projeto2 img {
+    max-height: 650px;
+    padding-top: 5%;
+  }
+
+  .projetos h2 {
+    margin: 0 0 2% 0;
+  }
+
+  .projetos p {
+    margin: 0 0 5% 0;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #homecontact {
+    height: 30%;
+    padding-top: 20%;
+  }
+
+  #homecontact h1 {
+    margin: 6% 0 6% 0;
+  }
+
+  #homecontact h2 {
+    margin: 0 0 0 0;
+    padding-top: 0;
+  }
+
+  #socialmedia {
+    padding-top: 8%;
+  }
+}
+
+/*************** Large devices (desktops, 992px and up) ***************/
+@media (min-width: 992px) {}
+
+/*************** Extra large devices (large desktops, 1200px and up) ***************/
+@media (min-width: 1200px) {}
