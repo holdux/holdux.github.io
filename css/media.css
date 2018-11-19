@@ -16,10 +16,6 @@
     font-size: 22px;
   }
 
-  #homearrow {
-    margin-top: 40%;
-  }
-
   .projetos {
     height: 100%;
   }
@@ -47,11 +43,15 @@
 
   #homecontact {
     height: 30%;
-    padding-top: 20%;
+    padding: 0;
+    margin-top: 25%;
+    margin-bottom: 20%;
   }
 
   #homecontact h1 {
-    margin: 6% 0 6% 0;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   #homecontact h2 {
@@ -60,7 +60,8 @@
   }
 
   #socialmedia {
-    padding-top: 8%;
+    margin: 0;
+    padding-top: 80px;
   }
 }
 
@@ -85,50 +86,156 @@
     padding: 2% 0 0 0;
   }
 
-  #homearrow {
-    margin-top: 25%;
+  .projrow {
+    display: flex;
+    align-items: center;
   }
 
   .projetos {
+    display: flex;
+    align-items: center;
+  }
+
+  .hometext {
     text-align: left;
-    padding-right: 10%;
   }
 
   .projetos h2 {
     font-size: 60px;
-    margin: 0;
-    padding-bottom: 1%;
+    margin-bottom: 6%;
   }
 
   .projetos h3 {
     font-size: 22px;
     margin: 0;
-    padding-bottom: 2%;
+    margin-bottom: 3%;
   }
 
   .projetos h4 {
     font-size: 18px;
-    margin: 0;
-    padding-bottom: 2%;
+    margin-bottom: 5%;
     padding-left: 0;
     padding-top: 0;
   }
 
   .projetos p {
     font-size: 22px;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     padding: 0;
   }
 
   #projeto1 img {
+    max-height: 700px;
+  }
+
+  #projeto2 img {
     max-height: 750px;
   }
 
-  .align-vt {
-    display: flex;
-    align-items: flex-end;
+  #projeto3 img {
+    max-height: 700px;
+    padding-top: 0;
+  }
+
+  .homebtn {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  #homecontact {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #homecontact h1 {
+    padding: 0;
+    font-size: 60px;
+  }
+
+  #homecontact h2 {
+    padding: 0;
+    font-size: 28px;
+  }
+
+  #socialmedia img {
+    max-width: 35px;
   }
 }
 
-/*************** Extra large devices (large desktops, 1200px and up) ***************/
-@media (min-width: 1200px) {}
+/*************** Extra large devices (large desktops, 1920px and up) ***************/
+@media (min-width: 1920px) {
+
+  /************* HOME ***************/
+  #homeheader h1 {
+    font-size: 80px;
+  }
+
+  #homeheader p {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+
+  #projeto1 img {
+    max-height: 900px;
+  }
+
+  #projeto2 img {
+    max-height: 1100px;
+    max-width: 2000px;
+  }
+
+  #projeto3 img {
+    max-height: 900px;
+    max-width: 2000px;
+  }
+
+  .projetos h2 {
+    font-size: 65px;
+  }
+
+  .projetos h3 {
+    font-size: 26px;
+  }
+
+  .projetos h4 {
+    font-size: 22px;
+  }
+
+  .projetos p {
+    font-size: 24px;
+  }
+
+  .homebtn {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  #homecontact h1 {
+    padding: 0;
+    font-size: 80px;
+  }
+
+  #homecontact h2 {
+    font-size: 36px;
+  }
+
+  #socialmedia img {
+    max-width: 45px;
+  }
+}
+
+/*************** Extra large devices (Cinema Display/2k) ***************/
+@media (min-width: 2560px) {
+
+  /************* HOME ***************/
+  #projeto1 img {
+    max-height: 1200px;
+  }
+
+  #projeto2 img {
+    max-height: 1300px;
+  }
+}
