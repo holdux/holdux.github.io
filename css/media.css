@@ -187,12 +187,12 @@
   #projeto1 img {
     max-height: 640px;
     position: relative;
-    right: -55px;
+    right: -30px;
   }
 
   #projeto2 img {
     position: relative;
-    left: -60px;
+    left: -80px;
     top: 20px;
     max-height: 650px;
     max-width: 1000px;
@@ -200,8 +200,8 @@
 
   #projeto3 img {
     position: relative;
-    left: -50px;
-    max-height: 620px;
+    left: -70px;
+    max-height: 550px;
     max-width: 1000px;
   }
 

@@ -45,6 +45,19 @@ a.nav-active {
 
 /****** Navbar - Projects *******/
 
+#projects-navbar a.menu-item {
+  color: #fff;
+}
+
+#projects-navbar a.nav-active {
+  color: #fff;
+}
+
+#projects-navbar a:hover,
+a:focus {
+  opacity: 0.6;
+}
+
 
 /********************** Home ***********************/
 
@@ -215,32 +228,16 @@ header {
 
 /****************** Project Pages *******************/
 
-/****** Projects - Navbar *******/
-
-#projects-navbar a.menu-item {
-  color: #fff;
-}
-
-#projects-navbar a.nav-active {
-  color: #fff;
-}
-
-#projects-navbar a:hover,
-a:focus {
-  opacity: 0.6;
-}
-
 /****** Projects - Header *******/
 
 .projects-header {
-  height: 100%;
+  height: 680px;
   display: flex;
   flex-direction: column;
 
   font-family: 'Muli', sans-serif;
   color: #ffffff;
   text-align: center;
-
 }
 
 #projects-header {
@@ -340,12 +337,15 @@ a:focus {
 
 #social-o {
   margin-top: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 #social-o img {
   margin-left: 10px;
   margin-right: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 #arrow {
@@ -379,13 +379,10 @@ a:focus {
   padding-bottom: 10%;
 }
 
-.pa-compare img {
-  max-height: 550px;
-}
-
-.pa-compare p {
-  font-size: 20px;
-  margin-top: 5%;
+.cocoen {
+  max-width: 230px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pa-delv h3 {
