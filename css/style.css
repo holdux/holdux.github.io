@@ -1,11 +1,30 @@
-/*************** Site-wide styling ***************/
-html, body {
+/********************** Fonts **********************/
+
+@font-face {
+  font-family: 'ClearSans';
+  font-weight: bold;
+  src: url('../fonts/ClearSans-Bold.ttf') format('woff'),
+    url('/..fonts/ClearSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ClearSans';
+  font-weight: regular;
+  src: url('../fonts/ClearSans-Regular.ttf') format('woff'),
+    url('/..fonts/ClearSans-Regular.ttf') format('truetype');
+}
+
+/******************* Global Styles ******************/
+
+html,
+body {
   height: 100%;
 }
 
-/* navbar */
+/****** Navbar - Default *******/
+
 #myNavbar {
-  font-size: 18px;
+  font-size: 22px;
   font-family: 'Raleway', sans-serif;
   color: #5b5b5b;
 }
@@ -19,33 +38,47 @@ a.nav-active {
   color: #2d2d2d;
 }
 
-@font-face {
-  font-family: 'ClearSans';
-  font-weight: bold;
-  src: url('../fonts/ClearSans-Bold.ttf') format('woff'),
-    url('/..fonts/ClearSans-Bold.ttf') format('truetype');
+.nav-link:focus,
+.nav-link:hover {
+  color: #2d2d2d;
 }
 
-/*************** Home ***************/
+/****** Navbar - Projects *******/
+
+
+/********************** Home ***********************/
+
+/****** Header *******/
 header {
-  height: 600px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+}
+
+#homeheader {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 30px;
 }
 
 #homeheader h1 {
-  font-family: Muli;
-  font-size: 35px;
+  font-family: 'Muli', sans-serif;
+  font-size: 30px;
   font-weight: 200;
   color: #2d2d2d;
-  padding-top: 30%;
-  padding-bottom: 15%;
-  padding-left: 3%;
+  line-height: 1.6;
+}
+
+#homeheader b {
+  font-weight: 600;
+  font-size: 36px;
 }
 
 #homeheader p {
-  font-family: Raleway;
-  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
   font-weight: 300;
-  padding-left: 3%;
+  margin-top: 50px;
 }
 
 #homeheader a {
@@ -53,78 +86,83 @@ header {
   color: inherit;
 }
 
-#homearrow {
+#headerarrow {
   display: flex;
   justify-content: center;
-  align-content: flex-end;
+  margin-top: auto;
+  margin-bottom: 35px;
 }
 
-.projetos {
+#headerarrow img {
+  max-width: 35px;
+}
+
+/****** Home Sections *******/
+
+.home-projects {
   color: #fff;
   text-align: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
-.projetos img {
-  max-height: 500px;
-  padding-top: 20%;
+.home-projects img {
+  max-height: 450px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.projetos h2 {
-  font-size: 35px;
-  font-family: 'ClearSans';
-  margin: 5% 2% 2% 2%;
+.home-projects h2 {
+  font-size: 38px;
+  font-family: 'ClearSans', sans-serif;
+  font-weight: bold;
+  padding-top: 35px;
 }
 
-.projetos h3 {
+.home-projects h3 {
   font-size: 20px;
-  font-family: 'ClearSans';
-  color: rgb(255, 255, 255, .70);
+  font-family: 'ClearSans', sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255, .65);
+  padding-top: 15px;
 }
 
-.projetos h4 {
-  font-family: Muli;
-  font-size: 16px;
-  padding: 2%;
-  color: rgb(255, 255, 255, .85);
-}
-
-.projetos p {
-  font-family: Muli;
+.home-projects h4 {
+  font-family: 'Muli', sans-serif;
   font-size: 18px;
-  margin: 5% 1% 10% 1%;
+  color: rgb(255, 255, 255, .85);
+  padding-top: 5px;
+}
+
+.home-projects p {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  padding-top: 20px;
+
 }
 
 .homebtn {
-  width: 165px;
-  height: 45px;
+  width: 200px;
+  height: 50px;
   border-radius: 15px;
   border-color: #fff;
+
   background-color: rgba(0, 0, 0, 0);
-  font-family: Muli;
-  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
   color: #fff;
-  margin: 0;
-  margin-bottom: 20%;
+
+  margin-top: 20px;
 }
 
 .homebtn:hover {
   border-color: rgba(0, 0, 0, 0);
   background-color: rgba(255, 255, 255, .2);
-  font-family: Muli;
-  color: rgba(255, 255, 255);
-  margin: 0;
-  margin-bottom: 20%;
 }
 
 #projeto1 {
   background-image: linear-gradient(to right, rgb(23, 209, 234, 0.8), rgb(38, 73, 255, 0.8));
-}
-
-#projeto1 img {
-  margin-bottom: 5%;
 }
 
 #projeto2 {
@@ -135,152 +173,227 @@ header {
   background-image: linear-gradient(to bottom, #42e695, #3ecea7 51%, #3bb8b8);
 }
 
+/****** Get in Touch *******/
+
 #homecontact {
-  color: #2d2d2d;
-  font-family: Muli;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+  height: 600px;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80%;
+
+  color: #2d2d2d;
+  text-align: center;
 }
 
 #homecontact h1 {
-  font-size: 38px;
-  font-weight: 300;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 #homecontact h2 {
   font-size: 22px;
-  font-family: Muli;
+  font-family: 'Muli', sans-serif;
   font-weight: 200;
 }
 
-#socialmedia {
+.socialmedia {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  margin-top: 70px;
+}
+
+.socialmedia img {
+  max-width: 30px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+/****************** Project Pages *******************/
+
+/****** Projects - Navbar *******/
+
+#projects-navbar a.menu-item {
+  color: #fff;
+}
+
+#projects-navbar a.nav-active {
+  color: #fff;
+}
+
+#projects-navbar a:hover,
+a:focus {
+  opacity: 0.6;
+}
+
+/****** Projects - Header *******/
+
+.projects-header {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'Muli', sans-serif;
+  color: #ffffff;
+  text-align: center;
+
+}
+
+#projects-header {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.projects-header h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.projects-header p {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.projects-header img {
+  max-height: 450px;
+  padding-bottom: 30px;
+}
+
+#projects-header {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/****** Projects - Body *******/
+
+.projectbody {
+  color: #2D2D2D;
+  text-align: center;
+}
+
+.projectgoal {
+  padding-top: 90px;
+  padding-bottom: 25%;
+}
+
+/**** Text *****/
+
+.projectbody h1 {
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+
+.projectbody h2 {
+  font-size: 30px;
+  font-family: 'ClearSans', sans-serif;
+  font-weight: regular;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.projectbody h3 {
+  font-size: 22px;
+  font-family: 'ClearSans', sans-serif;
+  font-weight: regular;
+  margin-bottom: 20px;
+}
+
+.projectbody h4 {
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
   margin-top: 15%;
 }
 
-#socialmedia img {
-  max-width: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
+.projectbody p {
+  font-family: 'Muli', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 2;
 }
 
-/*!
- * Hamburgers
- * @description Tasty CSS-animated hamburgers
- * @author Jonathan Suh @jonsuh
- * @site https://jonsuh.com/hamburgers
- * @link https://github.com/jonsuh/hamburgers
- */
-.hamburger {
-  padding: 15px 0px;
-  display: inline-block;
-  cursor: pointer;
-  transition-property: opacity, filter;
-  transition-duration: 0.15s;
-  transition-timing-function: linear;
-  font: inherit;
-  color: inherit;
-  text-transform: none;
-  background-color: transparent;
-  border: 0;
-  margin: 0;
-  overflow: visible;
+.projectbody b {
+  font-weight: 600;
 }
 
-.hamburger:hover {
-  opacity: 0.7;
+.projectbody a {
+  color: #2D2D2D;
+  text-decoration: underline;
 }
 
-.hamburger.is-active:hover {
-  opacity: 0.7;
+.contactme {
+  padding-bottom: 25%;
 }
 
-.hamburger.is-active .hamburger-inner,
-.hamburger.is-active .hamburger-inner::before,
-.hamburger.is-active .hamburger-inner::after {
-  background-color: #000;
+.contactme a {
+  color: #7D7D7D;
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
 }
 
-.hamburger-box {
-  width: 40px;
-  height: 24px;
-  display: inline-block;
-  position: relative;
+#social-o {
+  margin-top: 15px;
 }
 
-.hamburger-inner {
-  display: block;
-  top: 50%;
-  margin-top: -2px;
+#social-o img {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
 }
 
-.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-  width: 35px;
-  height: 2px;
-  background-color: #2d2d2d;
-  border-radius: 4px;
-  position: absolute;
-  transition-property: transform;
-  transition-duration: 0.15s;
-  transition-timing-function: ease;
+#arrow {
+  margin-left: 10px;
 }
 
-.hamburger-inner::before, .hamburger-inner::after {
-  content: "";
-  display: block;
+/***** PorAqui ******/
+#poraquiheader {
+  background-image: linear-gradient(to right, rgb(23, 209, 234, 0.8), rgb(38, 73, 255, 0.8));
 }
 
-.hamburger-inner::before {
-  top: -10px;
+.disclaimer p {
+  font-size: 15px;
+  margin-top: 10px;
 }
 
-.hamburger-inner::after {
-  bottom: -10px;
+.pa-research img {
+  max-width: 80px;
+  margin-bottom: 10%;
+  margin-top: 10%;
 }
 
-/*
-   * Squeeze
-   */
-.hamburger--squeeze .hamburger-inner {
-  transition-duration: 0.075s;
-  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+.pa-dev {
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 
-.hamburger--squeeze .hamburger-inner::before {
-  transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+.pa-icons img {
+  max-width: 80px;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
-.hamburger--squeeze .hamburger-inner::after {
-  transition: bottom 0.075s 0.12s ease, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+.pa-compare img {
+  max-height: 550px;
 }
 
-.hamburger--squeeze.is-active .hamburger-inner {
-  transform: rotate(45deg);
-  transition-delay: 0.12s;
-  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+.pa-compare p {
+  font-size: 20px;
+  margin-top: 5%;
 }
 
-.hamburger--squeeze.is-active .hamburger-inner::before {
-  top: 0;
-  opacity: 0;
-  transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+.pa-delv h3 {
+  margin-top: 15%;
+  margin-bottom: 5%;
 }
 
-.hamburger--squeeze.is-active .hamburger-inner::after {
-  bottom: 0;
-  transform: rotate(-90deg);
-  transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+.pa-conc h1 {
+  padding-top: 15%;
+  padding-bottom: 10%;
 }

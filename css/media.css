@@ -1,77 +1,150 @@
 /*************** Medium devices (tablets, 768px and up) ***************/
 @media (min-width: 768px) {
 
-  /************* HOME ***************/
+  /****************** Home ******************/
+
+  /****** Header *******/
   header {
-    height: 800px;
+    height: 950px;
   }
 
   #homeheader h1 {
     font-size: 50px;
-    padding-top: 30%;
-    padding-bottom: 3%;
+  }
+
+  #homeheader b {
+    font-size: 55px;
   }
 
   #homeheader p {
-    font-size: 22px;
+    font-size: 24px;
   }
 
-  .projetos {
+  /****** Home Sections *******/
+
+  .home-projects {
     height: 100%;
+    padding-top: 50px;
   }
 
-  .projetos img {
-    max-height: 600px;
-    padding-top: 10%;
-    padding-bottom: 0%;
+  .home-projects img {
+    max-height: 550px;
   }
 
-  #projeto2 img {
-    max-height: 650px;
-    padding-top: 5%;
+  .home-projects h2 {
+    font-size: 40px;
   }
 
-  .projetos h2 {
-    margin: 0 0 2% 0;
+  .home-projects h3 {
+    font-size: 20px;
   }
 
-  .projetos p {
-    margin: 0 0 5% 0;
+  .home-projects h4 {
+    font-size: 20px;
+  }
+
+  .home-projects p {
+    font-size: 20px;
+    padding-top: 15px;
     padding-left: 10%;
     padding-right: 10%;
   }
 
+  .homebtn {
+    font-size: 19px;
+
+    width: 220px;
+    height: 55px;
+
+    margin-top: 20px;
+  }
+
   #homecontact {
-    height: 30%;
-    padding: 0;
-    margin-top: 25%;
-    margin-bottom: 20%;
+    height: 750px;
   }
 
   #homecontact h1 {
-    padding: 0;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   #homecontact h2 {
-    margin: 0 0 0 0;
-    padding-top: 0;
+    font-size: 28px;
   }
 
-  #socialmedia {
-    margin: 0;
-    padding-top: 80px;
+  /*************** Project Pages ***************/
+
+  .projectheader img {
+    max-height: 650px;
+    padding-bottom: 55px;
   }
+
+  .projectheader h1 {
+    font-size: 48px;
+  }
+
+  .projectheader p {
+    font-size: 35px;
+  }
+
+  .projectgoal {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .projectbody h1 {
+    font-size: 50px;
+  }
+
+  .projectbody h2 {
+    font-size: 35px;
+  }
+
+  .projectbody h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  /******** PorAqui *********/
+  .pa-dev p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .pa-icons img {
+    max-width: 100px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+
+  .pa-dev h2 {
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+
+  .pa-delv h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
 }
 
 /*************** Large devices (desktops, 992px and up) ***************/
 @media (min-width: 992px) {
 
-  /************* HOME ***************/
-  a.menu-item {
+  /************ Global Styles ***************/
+
+  /****** Navbar - Default *******/
+
+  #myNavbar {
     font-size: 25px;
+    margin-top: 20px;
   }
+
+  /****************** Home ******************/
+
+  /****** Header *******/
 
   header {
     height: 100%;
@@ -79,78 +152,93 @@
 
   #homeheader h1 {
     font-size: 65px;
-    padding: 15% 0 0 0;
+  }
+
+  #homeheader b {
+    font-size: 70px;
   }
 
   #homeheader p {
-    padding: 2% 0 0 0;
+    font-size: 28px;
   }
 
-  .projrow {
+  #headerarrow {
+    margin-bottom: 55px;
+  }
+
+  #headerarrow img {
+    max-width: 40px;
+  }
+
+  /****** Home Sections *******/
+
+  /***** img *****/
+
+  .home-projects {
     display: flex;
     align-items: center;
   }
 
-  .projetos {
-    display: flex;
-    align-items: center;
-  }
-
-  .hometext {
-    text-align: left;
-  }
-
-  .projetos h2 {
-    font-size: 60px;
-    margin-bottom: 6%;
-  }
-
-  .projetos h3 {
-    font-size: 22px;
-    margin: 0;
-    margin-bottom: 3%;
-  }
-
-  .projetos h4 {
-    font-size: 18px;
-    margin-bottom: 5%;
-    padding-left: 0;
-    padding-top: 0;
-  }
-
-  .projetos p {
-    font-size: 22px;
-    margin-bottom: 10%;
+  .home-projects img {
     padding: 0;
+    margin-left: 0;
   }
 
   #projeto1 img {
-    max-height: 700px;
+    max-height: 640px;
+    position: relative;
+    right: -55px;
   }
 
   #projeto2 img {
-    max-height: 750px;
+    position: relative;
+    left: -60px;
+    top: 20px;
+    max-height: 650px;
+    max-width: 1000px;
   }
 
   #projeto3 img {
-    max-height: 700px;
-    padding-top: 0;
+    position: relative;
+    left: -50px;
+    max-height: 620px;
+    max-width: 1000px;
   }
 
-  .homebtn {
-    width: 200px;
-    height: 50px;
-    font-size: 18px;
+  /***** txt *****/
+
+  .hometext {
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .home-projects h2 {
+    font-size: 58px;
+    padding-bottom: 10px;
+  }
+
+  .home-projects h3 {
+    font-size: 22px;
+    padding-bottom: 0;
+  }
+
+  .home-projects h4 {
+    font-size: 19px;
+    margin-bottom: 35px;
+  }
+
+  .home-projects p {
+    font-size: 22px;
+    margin-bottom: 40px;
+    padding: 0;
   }
 
   #homecontact {
     height: 100%;
-    margin: 0;
-    padding: 0;
   }
 
   #homecontact h1 {
-    padding: 0;
     font-size: 60px;
   }
 
@@ -159,83 +247,195 @@
     font-size: 28px;
   }
 
-  #socialmedia img {
-    max-width: 35px;
+  .socialmedia {
+    margin-top: 90px;
   }
+
+  .socialmedia img {
+    min-width: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
+  }
+
 }
 
 /*************** Extra large devices (large desktops, 1920px and up) ***************/
 @media (min-width: 1920px) {
 
-  /************* HOME ***************/
+  /************ Global Styles ***************/
+
+  /****** Navbar - Default *******/
+
+  #myNavbar {
+    font-size: 28px;
+    margin-top: 25px;
+  }
+
+  /****************** Home ******************/
+
+  /****** Header *******/
+
+  header {
+    height: 100%;
+  }
+
+  #homeheader {
+    padding-left: 0;
+  }
+
   #homeheader h1 {
+    font-size: 75px;
+  }
+
+  #homeheader b {
     font-size: 80px;
   }
 
   #homeheader p {
     font-size: 28px;
-    margin-top: 20px;
+    margin-top: 40px;
+  }
+
+  #headerarrow {
+    margin-bottom: 80px;
+  }
+
+  #headerarrow img {
+    max-width: 45px;
+  }
+
+  /***** img *****/
+
+  .home-projects {
+    display: flex;
+    align-items: center;
+  }
+
+  .home-projects img {
+    padding: 0;
+    margin-left: 0;
   }
 
   #projeto1 img {
-    max-height: 900px;
+    max-height: 800px;
+    position: relative;
+    left: -100px;
   }
 
   #projeto2 img {
-    max-height: 1100px;
+    position: relative;
+    left: -250px;
+    top: 20px;
+    max-height: 850px;
     max-width: 2000px;
   }
 
   #projeto3 img {
-    max-height: 900px;
+    position: relative;
+    left: -275px;
+    max-height: 700px;
     max-width: 2000px;
   }
 
-  .projetos h2 {
+  /***** txt *****/
+
+  .home-projects h2 {
     font-size: 65px;
   }
 
-  .projetos h3 {
+  .home-projects h3 {
     font-size: 26px;
   }
 
-  .projetos h4 {
+  .home-projects h4 {
     font-size: 22px;
   }
 
-  .projetos p {
-    font-size: 24px;
+  .home-projects p {
+    font-size: 23px;
   }
 
   .homebtn {
-    width: 200px;
-    height: 60px;
     font-size: 20px;
   }
 
   #homecontact h1 {
-    padding: 0;
-    font-size: 80px;
+    font-size: 75px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   #homecontact h2 {
-    font-size: 36px;
+    font-size: 35px;
   }
 
-  #socialmedia img {
-    max-width: 45px;
+  .socialmedia {
+    padding-top: 45px;
+  }
+
+  .socialmedia img {
+    min-width: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
 
-/*************** Extra large devices (Cinema Display/2k) ***************/
+/*************** Mega large devices (Cinema Display/2k) ***************/
 @media (min-width: 2560px) {
 
-  /************* HOME ***************/
+  /************ Global Styles ***************/
+
+  /****** Navbar - Default *******/
+
+  #myNavbar {
+    font-size: 30px;
+  }
+
+  /****************** Home ******************/
+
+  /****** Header *******/
+
+  #homeheader h1 {
+    font-size: 80px;
+  }
+
+  #homeheader b {
+    font-size: 90px;
+  }
+
+  #homeheader p {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+  #headerarrow {
+    margin-bottom: 120px;
+  }
+
+  #headerarrow img {
+    max-width: 55px;
+  }
+
+  /***** img *****/
+
   #projeto1 img {
-    max-height: 1200px;
+    max-height: 1000px;
+    left: -200px;
   }
 
   #projeto2 img {
-    max-height: 1300px;
+    max-height: 1200px;
+    max-width: 2000px;
+    left: -575px;
+    top: 30px;
   }
+
+  #projeto3 img {
+    position: relative;
+    left: -450px;
+    max-height: 2000px;
+    max-width: 2000px;
+  }
+
 }
