@@ -353,6 +353,7 @@ header {
 }
 
 /***** PorAqui ******/
+
 #poraquiheader {
   background-image: linear-gradient(to right, rgb(23, 209, 234, 0.8), rgb(38, 73, 255, 0.8));
 }
@@ -409,6 +410,6 @@ header {
 }
 
 .pa-conc h1 {
-  padding-top: 15%;
-  padding-bottom: 10%;
+  padding-top: 70px;
+  padding-bottom: 30px;
 }
