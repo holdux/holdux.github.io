@@ -500,7 +500,60 @@
     text-align: center;
 
     margin-top: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+  }
+
+  .features img {
+    max-height: 650px;
+    margin-top: 20px;
+  }
+
+  .features p {
+    font-size: 24px;
+    margin-top: 25px;
+    font-weight: 400;
+  }
+
+  /** Delivery **/
+  .pa-conc {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 150px;
+  }
+
+  .pa-conc p {
+    margin: 0;
+  }
+
+  .pa-conc h1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+  }
+
+  .contactme {
+    padding-bottom: 100px;
+    padding-top: 60px;
+
+  }
+
+  .contactme p {
+    text-align: center;
+  }
+
+  .contactme h4 {
+    font-size: 18px;
+    margin-top: 100px;
+    margin-bottom: 15px;
+  }
+
+  .contactme a {
+    font-size: 18px;
+  }
+
+  #social-o {
+    padding-top: 0;
+    padding-bottom: 40px;
   }
 
 
