@@ -1,6 +1,5 @@
 /*************** Medium devices (tablets, 768px and up) ***************/
 @media (min-width: 768px) {
-
   /********************* Home *********************/
 
   /****** Header *******/
@@ -251,14 +250,13 @@
   }
 
   #social-o {
-    padding-top: 5px;
+    padding-top: 0;
     padding-bottom: 25px;
   }
 }
 
 /*************** Large devices (desktops, 992px and up) ***************/
 @media (min-width: 992px) {
-
   /************ Global Styles ***************/
 
   /****** Navbar - Default *******/
@@ -384,11 +382,132 @@
     height: auto;
   }
 
+  /**************** Project Pages ****************/
+
+  /** Header **/
+
+  .projects-header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #header-text {
+    align-self: center;
+    padding-bottom: 10%;
+  }
+
+  .projects-header h1,
+  p {
+    text-align: left;
+  }
+
+  .projects-header h1 {
+    font-size: 55px;
+  }
+
+  /** Body **/
+
+  .projectgoal {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 150px;
+    padding-top: 150px;
+  }
+
+  .projectbody h1 {
+    font-size: 55px;
+    padding-bottom: 35px;
+  }
+
+  .projectbody h2 {
+    font-size: 40px;
+  }
+
+  .projectbody h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .projectbody p {
+    font-size: 20px;
+  }
+
+  /******** PorAqui *********/
+
+  /** Research **/
+  #bigger-icon img {
+    padding-bottom: 20px;
+  }
+
+  .pa-research img {
+    margin-bottom: 40px;
+  }
+
+  .pa-research p {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  /** Development **/
+
+  .pa-dev {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .pa-dev h3 {
+    font-size: 28px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin-left: 95px;
+    text-align: left;
+  }
+
+  .pa-dev p {
+    margin-left: 95px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+
+  .pa-icons {
+    align-self: center;
+    padding-left: 100px;
+  }
+
+  .pa-icons img {
+    max-width: 200px;
+  }
+
+  /** Carousel **/
+
+  .pa-carousel {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .pa-carousel img {
+    max-height: 650px;
+  }
+
+  .pa-carousel p {
+    font-size: 26px;
+    text-align: center;
+
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+
 }
 
 /*************** Extra large devices (large desktops, 1920px and up) ***************/
 @media (min-width: 1920px) {
-
   /************ Global Styles ***************/
 
   /****** Navbar - Default *******/
@@ -509,7 +628,6 @@
 
 /*************** Mega large devices (Cinema Display/2k) ***************/
 @media (min-width: 2560px) {
-
   /************ Global Styles ***************/
 
   /****** Navbar - Default *******/

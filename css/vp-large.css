@@ -1,0 +1,124 @@
+/************ Global Styles ***************/
+
+/****** Navbar - Default *******/
+
+#myNavbar {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+/****************** Home ******************/
+
+/****** Header *******/
+
+header {
+    height: 100%;
+}
+
+#homeheader h1 {
+    font-size: 65px;
+}
+
+#homeheader b {
+    font-size: 70px;
+}
+
+#homeheader p {
+    font-size: 28px;
+}
+
+#headerarrow {
+    margin-bottom: 55px;
+}
+
+#headerarrow img {
+    max-width: 40px;
+}
+
+/****** Home Sections *******/
+
+/***** img *****/
+
+.home-projects {
+    display: flex;
+    align-items: center;
+}
+
+.home-projects img {
+    padding: 0;
+    margin-left: 0;
+}
+
+#projeto1 img {
+    max-height: 640px;
+    position: relative;
+    right: -30px;
+}
+
+#projeto2 img {
+    position: relative;
+    left: -80px;
+    top: 20px;
+    max-height: 650px;
+    max-width: 1000px;
+}
+
+#projeto3 img {
+    position: relative;
+    left: -70px;
+    max-height: 550px;
+    max-width: 1000px;
+}
+
+/***** txt *****/
+
+.hometext {
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.home-projects h2 {
+    font-size: 58px;
+    padding-bottom: 10px;
+}
+
+.home-projects h3 {
+    font-size: 22px;
+    padding-bottom: 0;
+}
+
+.home-projects h4 {
+    font-size: 19px;
+    margin-bottom: 35px;
+}
+
+.home-projects p {
+    font-size: 22px;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+#homecontact {
+    height: 100%;
+}
+
+#homecontact h1 {
+    font-size: 60px;
+}
+
+#homecontact h2 {
+    padding: 0;
+    font-size: 28px;
+}
+
+.socialmedia {
+    margin-top: 90px;
+}
+
+.socialmedia img {
+    min-width: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
+}

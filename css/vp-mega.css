@@ -1,0 +1,53 @@
+/************ Global Styles ***************/
+
+/****** Navbar - Default *******/
+
+#myNavbar {
+    font-size: 30px;
+}
+
+/****************** Home ******************/
+
+/****** Header *******/
+
+#homeheader h1 {
+    font-size: 80px;
+}
+
+#homeheader b {
+    font-size: 90px;
+}
+
+#homeheader p {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#headerarrow {
+    margin-bottom: 120px;
+}
+
+#headerarrow img {
+    max-width: 55px;
+}
+
+/***** img *****/
+
+#projeto1 img {
+    max-height: 1000px;
+    left: -200px;
+}
+
+#projeto2 img {
+    max-height: 1200px;
+    max-width: 2000px;
+    left: -575px;
+    top: 30px;
+}
+
+#projeto3 img {
+    position: relative;
+    left: -450px;
+    max-height: 2000px;
+    max-width: 2000px;
+}

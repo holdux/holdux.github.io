@@ -1,0 +1,253 @@
+/********************* Home *********************/
+
+/****** Header *******/
+header {
+    height: 950px;
+}
+
+#homeheader h1 {
+    font-size: 50px;
+}
+
+#homeheader b {
+    font-size: 55px;
+}
+
+#homeheader p {
+    font-size: 24px;
+}
+
+/****** Home Sections *******/
+
+.home-projects {
+    height: 100%;
+    padding-top: 50px;
+}
+
+.home-projects img {
+    max-height: 550px;
+}
+
+.home-projects h2 {
+    font-size: 40px;
+}
+
+.home-projects h3 {
+    font-size: 20px;
+}
+
+.home-projects h4 {
+    font-size: 20px;
+}
+
+.home-projects p {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.homebtn {
+    font-size: 19px;
+
+    width: 220px;
+    height: 55px;
+
+    margin-top: 20px;
+}
+
+#homecontact {
+    height: 750px;
+}
+
+#homecontact h1 {
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#homecontact h2 {
+    font-size: 28px;
+}
+
+/**************** Project Pages ****************/
+
+/** Header **/
+.projects-header {
+    height: 100%;
+}
+
+.projects-header img {
+    max-height: 650px;
+    padding-bottom: 55px;
+}
+
+.projects-header h1 {
+    font-size: 48px;
+}
+
+.projects-header p {
+    font-size: 35px;
+}
+
+/** Body **/
+
+.projectgoal {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 90px;
+}
+
+.projectbody h1 {
+    font-size: 50px;
+}
+
+.projectbody h2 {
+    font-size: 35px;
+}
+
+.projectbody h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.projectbody p {
+    font-size: 17px;
+}
+
+/******** PorAqui *********/
+
+/** Research **/
+
+#bigger-icon img {
+    max-width: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 13px;
+}
+
+/** Development **/
+.pa-dev {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.pa-dev h1 {
+    padding-bottom: 0;
+}
+
+.pa-dev h2 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.pa-dev p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pa-icons img {
+    max-width: 100px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+/** Carousel **/
+
+.pa-carousel {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+
+.pa-carousel img {
+    max-height: 500px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.pa-carousel p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.carousel-indicators .active {
+    background-color: rgb(45, 45, 45);
+}
+
+.carousel-indicators li {
+    background-color: rgb(45, 45, 45, 0.6);
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232D2D2D' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    position: relative;
+    left: -35px;
+    top: -50px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232D2D2D' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    position: relative;
+    left: 35px;
+    top: -50px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+}
+
+.features img {
+    max-height: 500px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+/** Delivery **/
+
+.pa-delv h1 {
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+
+.pa-delv h3 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.pa-delv img {
+    padding-top: 35px;
+}
+
+.pa-delv p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pa-conc p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contactme {
+    padding-bottom: 100px;
+}
+
+.contactme h4 {
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+
+#social-o {
+    padding-top: 0;
+    padding-bottom: 25px;
+}
