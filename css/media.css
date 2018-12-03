@@ -515,6 +515,10 @@
   }
 
   /** Delivery **/
+  .pa-dev h1 {
+    padding-bottom: 0;
+  }
+
   .pa-conc {
     padding-left: 200px;
     padding-right: 200px;
@@ -677,6 +681,47 @@
     margin-left: 30px;
     margin-right: 30px;
   }
+
+  /**************** Project Pages ****************/
+
+  .projects-header img {
+    max-height: 800px;
+    padding-right: 50px;
+  }
+
+  .projects-header h1 {
+    font-size: 70px;
+  }
+
+  .projects-header p {
+    font-size: 40px;
+  }
+
+  .pa-carousel img {
+    max-height: 700px;
+  }
+
+  .features img {
+    max-height: 700px;
+  }
+
+  .contactme h4 {
+    font-size: 22px;
+  }
+
+  .contactme p {
+    font-size: 22px;
+  }
+
+  .contactme a {
+    font-size: 20px;
+  }
+
+  #social-o img {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
 }
 
 /*************** Mega large devices (Cinema Display/2k) ***************/
@@ -735,4 +780,19 @@
     max-width: 2000px;
   }
 
+  /**************** Project Pages ****************/
+
+  .projects-header img {
+    max-height: 1000px;
+    position: relative;
+    left: -200px;
+  }
+
+  .projects-header h1 {
+    font-size: 70px;
+  }
+
+  .projects-header p {
+    font-size: 50px;
+  }
 }
