@@ -523,3 +523,48 @@ header {
   padding-top: 30px;
   padding-bottom: 15px;
 }
+
+/****************** About *******************/
+
+.about-body {
+  text-align: center;
+}
+
+.about-body h1 {
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+
+.about-body h2 {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.about-body p {
+  font-family: 'Muli', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 2;
+}
+
+.about-body b {
+  font-weight: 700;
+}
+
+.about-body a {
+  color: #2D2D2D;
+  text-decoration: underline;
+}
+
+/********** Header *********/
+#about-header {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#about-header h1 {
+  padding-top: 50px;
+}
