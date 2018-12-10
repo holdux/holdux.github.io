@@ -72,7 +72,7 @@
     font-size: 28px;
   }
 
-  /**************** Project Pages ****************/
+  /********************* Project Pages *********************/
 
   /** Header **/
   .projects-header {
@@ -117,7 +117,7 @@
     font-size: 17px;
   }
 
-  /******** PorAqui *********/
+  /********************* PorAqui *********************/
 
   /** Research **/
 
@@ -252,6 +252,56 @@
   #social-o {
     padding-top: 0;
     padding-bottom: 25px;
+  }
+
+  /********************* HelpNet *********************/
+  #hn-goal {
+    padding-top: 130px;
+    padding-bottom: 30px;
+  }
+
+  #hn-goal h1 {
+    padding-bottom: 40px;
+  }
+
+  /** Research **/
+
+  #doctoricon img {
+    max-width: 200px;
+  }
+
+  #hn-journey p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #hn-scenarios p {
+    font-size: 17px;
+    font-weight: 300;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-bottom: 10px;
+  }
+
+  #hn-c-left {
+    position: relative;
+    left: 10px;
+    top: 1px;
+  }
+
+  #hn-c-right {
+    position: relative;
+    left: -10px;
+    top: 1px;
+  }
+
+  #hn-sol {
+    padding-top: 0;
+  }
+
+  #hn-prototype {
+    padding-left: 120px;
+    padding-right: 120px;
   }
 }
 
@@ -560,6 +610,118 @@
     padding-bottom: 40px;
   }
 
+  /********************* HelpNet *********************/
+  #helpnetheader img {
+    position: relative;
+    left: -50px;
+
+  }
+
+  #hn-goal {
+    padding-top: 160px;
+    padding-bottom: 60px;
+  }
+
+  #hn-goal h1 {
+    padding-bottom: 50px;
+  }
+
+  #hn-goal p {
+    text-align: center;
+  }
+
+  /** Research **/
+
+  #hn-research h1 {
+    padding-bottom: 50px;
+    margin-left: 95px;
+    text-align: left;
+  }
+
+  #hn-research img {
+    max-width: 100px;
+    padding-top: 80px;
+  }
+
+  #doctoricon img {
+    max-width: 140px;
+    padding-top: 0px;
+  }
+
+  #hn-journey {
+    padding-top: 0;
+  }
+
+  #hn-journey p {
+    text-align: center;
+  }
+
+  #hn-scenarios img {
+    max-width: 400px;
+    position: relative;
+    top: 21%;
+    left: 30%;
+  }
+
+  #hn-scenarios h3 {
+    text-align: left;
+    padding-left: 130px;
+  }
+
+  #hn-scenarios p {
+    text-align: left;
+    padding-right: 150px;
+    padding-bottom: 50px;
+  }
+
+  #hn-scenarios {
+    padding-bottom: 90px;
+  }
+
+  #hn-c-left {
+    position: relative;
+    left: -50px;
+  }
+
+  #hn-sol h1 {
+    padding-bottom: 50px;
+  }
+
+  #hn-sol p {
+    text-align: center;
+  }
+
+  #hn-prototype h2,
+  h3 {
+    text-align: left;
+  }
+
+  #hn-prototype h3 {
+    font-size: 23px;
+  }
+
+  #hn-prototype p {
+    padding-right: 0px;
+  }
+
+  #hn-interface {
+    padding-top: 100px;
+  }
+
+  #hn-conc h1 {
+    padding-top: 150px;
+    padding-bottom: 0px;
+  }
+
+  #hn-conc h3 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 5px;
+  }
+
+  #hn-conc p {
+    text-align: center;
+  }
 
 }
 
@@ -722,6 +884,37 @@
     margin-right: 20px;
   }
 
+  /**************** HelpNet ****************/
+  #helpnetheader img {
+    max-width: 1000px;
+    position: relative;
+    left: -250px;
+
+  }
+
+  #hn-scenarios h3 {
+    padding-left: 110px;
+  }
+
+  #hn-scenarios p {
+    padding-right: 30px;
+  }
+
+  #hn-c-left {
+    position: relative;
+    left: -100px;
+  }
+
+  #hn-c-right {
+    position: relative;
+    left: 115px;
+  }
+
+  #hn-prototype p {
+    padding-right: 0px;
+  }
+
+
 }
 
 /*************** Mega large devices (Cinema Display/2k) ***************/
@@ -794,5 +987,12 @@
 
   .projects-header p {
     font-size: 50px;
+  }
+
+  /**************** HelpNet ****************/
+  #helpnetheader img {
+    position: relative;
+    left: -300px;
+
   }
 }

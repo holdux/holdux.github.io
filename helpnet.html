@@ -18,7 +18,7 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600,600i,700|Raleway:300,400,500,700" rel="stylesheet">
 
-    <title>HelNet - Camila Holanda's Portfolio</title>
+    <title>HelpNet - Camila Holanda's Portfolio</title>
 
 </head>
 
@@ -71,24 +71,27 @@
     <div class="container-fluid projectbody">
 
         <!-- Goal -->
-        <div class="container projectgoal">
+        <div class="container projectgoal" id="hn-goal">
             <h1>Opportunity</h1>
-            <p>According to the National Institute of Drug Abuse, 40 to 60% of patients who undergo drug addiction
-                treatment relapse.<br><br>
+            <p>According to the National Institute of Drug Abuse, <b>40 to 60%</b> of patients who undergo drug
+                addiction
+                treatment <b>relapse</b>.<br><br>
 
-                This project aims to decrease this number by detecting risk behaviour and immediatly connecting the
-                patient with their support network.</p>
+                This project aims to <b>decrease this number</b> by detecting risk behaviour and immediatly connecting
+                the
+                patient with their <b>support network</b>.</p>
             </span>
         </div>
 
-        <!-- Research -->
-        <div class="container pa-dev">
-            <h1>Research</h1>
+        <!------- Research -------->
+        <div class="container pa-dev" id="hn-research">
             <div class="row">
+                <h1 class="d-md-block d-lg-none" id="hn-h1-mobile">Research</h1>
                 <div class="col-lg-3 pa-icons">
                     <img src="img/icons/helpnet/research.png" alt="Research Icon">
                 </div>
                 <div class="col-lg-9">
+                    <h1 class="d-none d-lg-block">Research</h1>
                     <p>Before working on solutions, I wanted to understand the <b>context</b> of drug abuse and
                         addiction
                         treatments. <br><br>
@@ -104,59 +107,63 @@
                 </div>
                 <div class="col-lg-9">
                     <p><b>Questions I explored:</b><br><br>
-                        In what <b>moment</b> / context would this app be most useful?<br><br>
-                        <b>What</b> makes patients relapse? What keeps some of them from relapsing? <br><br><b>Who</b>
+                        In what <b>moment</b> / context would this app be most useful?<br><br class="d-md-none">
+                        <b>What</b> makes patients relapse? What keeps them from relapsing? <br><br class="d-md-none"><b>Who</b>
                         else would use
                         this solution?</p>
                 </div>
             </div>
-            <div class="projectgoal">
+            <div class="projectgoal" id="hn-journey">
                 <h2>User Journey</h2>
                 <p> I chose as the <b>main public</b> for this app the patients who are <b>finishing treatment</b> and
-                    <b>getting out of a rehab facility</b>. Since they are experiencing a difficult transition
+                    <b>getting out of a rehab facility</b>. <br><br>Since they are
+                    experiencing a
+                    difficult transition
                     period,
                     they are the ones who an app like this one would help the most.<br><br>
                     When a user starts the recovery process, the first recommendation is to <b>avoid people and places
-                        related to the addiction</b>. However, it's very hard to do this, especially in a moment of
-                    crisis when the pacient is feeling alone and more prone to relapse.</p>
+                        related to the addiction</b>. <br class="d-md-none"><br class="d-md-none">However, it's very
+                    hard to do this,
+                    especially in a moment of
+                    crisis when the pacient is feeling alone and more prone to relapse. <br> <br> A typical relapse
+                    journey looks like this:</p>
+                <br><br><br><br><br><br><br>
                 <p>After this realization, I decided to develop a solution focused on this moment of <b>crisis and
                         solitute</b>, using <b>3 scenarios</b> to consider a few reasons why the crisis begins in the
                     first place. </p>
+
             </div>
         </div>
-
-
-
-        <!-- md and up-->
-        <div class="compare-md">
+        <!-- User Scenarios -->
+        <div class="container compare-md" id="hn-scenarios">
+            <h2>User Scenarios</h2>
             <div id="hn-carousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                    <li data-target="#pa-carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#pa-carousel" data-slide-to="1"></li>
-                    <li data-target="#pa-carousel" data-slide-to="2"></li>
+                    <li data-target="#hn-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#hn-carousel" data-slide-to="1"></li>
+                    <li data-target="#hn-carousel" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner pa-carousel">
-
                     <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-md-4">
+                        <div class="row hn-row">
+                            <div class="col-lg-4">
                                 <img src="img/helpnet/p1-louise.png" alt="Persona 1 - Louise">
                             </div>
-                            <div class="col-md-8">
-                                <h2>Scenario 1</h2>
+                            <div class="col-lg-8">
+                                <h3>Scenario 1</h3>
 
                                 <p>Louise (28, F) has been clean for 1 year, but she has just lost her job. She feels
                                     depressed
                                     and is at risk of relapsing.
                                     <br><br>
-                                    - She tries to talk to her therapist, but <b>can’t reach him</b>.
+                                    She tries to talk to her therapist, but <b>can’t reach him</b>.
                                     <br><br>
-                                    - It’s late and Louise <b>doesn’t want to bother</b> her loved ones with her
+                                    It’s late and Louise <b>doesn’t want to bother</b> her loved ones with her
                                     problems, so
                                     she
                                     doesn’t call them.
                                     <br><br>
-                                    - Louise feels lonely, but she remembers of an old friend who wouldn’t mind if she
+                                    Louise feels lonely, but she remembers of an old friend who wouldn’t mind if she
                                     wants to
                                     go out for <b>just one drink</b>.</p>
                             </div>
@@ -167,23 +174,23 @@
 
                     <div class="carousel-item">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-lg-4">
                                 <img src="img/helpnet/p2-shaun.png" alt="Persona 2 - Shaun">
                             </div>
-                            <div class="col-md-8">
-                                <h2>Scenario 2</h2>
+                            <div class="col-lg-8">
+                                <h3>Scenario 2</h3>
 
                                 <p>It’s Shaun’s (16, M) 3rd week out of rehab. He’s doing great, but he’s starting to
                                     feel
                                     lonely.
                                     <br><br>
-                                    - One of Shaun’s <b>old friends</b> sends a text asking to meet up.
+                                    One of Shaun’s <b>old friends</b> sends a text asking to meet up.
                                     <br><br>
-                                    - Shaun misses his friends, so he texts his old girlfriend. She asks him to join
+                                    Shaun misses his friends, so he texts his old girlfriend. She asks him to join
                                     her at the
                                     skate park they <b>used to go</b>.
                                     <br><br>
-                                    - Shaun knows a lot of people go there to use drugs, but he doesn’t think it will
+                                    Shaun knows a lot of people go there to use drugs, but he doesn’t think it will
                                     be a
                                     problem <b>for him</b>.</p>
                             </div>
@@ -194,178 +201,146 @@
 
                     <div class="carousel-item">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-lg-4">
                                 <img src="img/helpnet/p3-paul.png" alt="Persona 3 - Paul">
                             </div>
-                            <div class="col-md-8">
-                                <h2>Scenario 3</h2>
+                            <div class="col-lg-8">
+                                <h3>Scenario 3</h3>
 
                                 <p>Paul (40, M) has been home for 3 months. He’s doing everything he’s supposed to, but
                                     his
                                     family won’t trust him.
                                     <br><br>
-                                    - His daughter refuses to go out, claiming he’s just <b>using her</b>.
+                                    His daughter refuses to go out, claiming he’s just <b>using her</b>.
                                     <br><br>
-                                    - He’s having dinner with his wife. She won’t talk to him. She’s still hurt from
+                                    He’s having dinner with his wife. She won’t talk to him. She’s still hurt from
                                     his
                                     previous <b>abusive behaviour</b>.
                                     <br><br>
-                                    - Paul passes athrough bar getting out of from work. He’s scared of going home,
+                                    Paul passes athrough bar getting out of from work. He’s scared of going home,
                                     so
                                     he
                                     gets in to <b>avoid it</b>.</p>
                             </div>
-
                         </div>
-
-
-
                     </div>
-
                 </div>
-
-                <a class="carousel-control-prev" href="#pa-carousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <a class="carousel-control-prev" href="#hn-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" id="hn-c-left" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#pa-carousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <a class="carousel-control-next" href="#hn-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" id="hn-c-right" aria-hidden=" true"></span>
                     <span class="sr-only">Next</span>
                 </a>
             </div>
 
         </div>
-        <!-- mobile-->
-        <div class="d-block d-sm-none pa-compare">
-            <div class="cocoen">
-                <img src="img/poraqui/feed-old.png" alt="Old Feed">
-                <img src="img/poraqui/feed-new.png" alt="Improved Feed">
-            </div>
-            <p>Main Feed</p>
 
-            <div class="cocoen">
-                <img src="img/poraqui/event-old.png" alt="Old Events Page">
-                <img src="img/poraqui/event-new.png" alt="Improved Events Page">
-            </div>
-            <p>Event Announcements</p>
+        <!-------- Solution -------->
 
-            <div class="cocoen">
-                <img src="img/poraqui/news-old.png" alt="Old News Page">
-                <img src="img/poraqui/news-new.png" alt="Improved News Page">
-            </div>
-            <p>News</p>
+        <div class="container projectgoal" id="hn-sol">
+            <h1>Solution</h1>
+            <p>During the research process, I realized that what most commonly drives people to relapse is <b>feeling
+                    lonely</b> and <b>returning to old habits</b>.<br><br>
 
-        </div>
-        <h2>New Features</h2>
-        <div class=" pa-compare features">
-            <div><img src="img/poraqui/feat-agenda.png">
-                <p>Events Calendar</p>
-            </div>
-            <div class="feat-div"><img src="img/poraqui/feat-places.png">
-                <span class="compare-end">
-                    <p>Places around me</p>
-                </span></div>
-
+                With this in mind, I created an app that <b>detects</b> when the user contacts people that could drive
+                them to
+                relapse, <b>blocks</b> any calls and texts and immediately <b>connects</b> the user with their support
+                network,
+                providing enough <b>time</b> to recover and <b>strength</b> to resist this urge.</p>
         </div>
 
-    </div>
-    <!-- Delivery -->
-    <div class="container pa-delv pa-icons d-none d-md-block d-lg-none ">
-        <h1>Delivery</h1>
-        <h3>Narrated Prototype</h3>
-        <img src="img/icons/poraqui/phone.png" alt="Phone Icon">
-        <p>We chose to present as our main deliverable a <b>narrated prototype</b>, in additional to <b>wireframes</b>
-            and
-            <b>written</b> documentation.
-            <br><br>
-            Since the features would be implemented by <b>another team</b> at a later date, the video showing <b>all
-                the
-                interactions step-by-step</b> helps other developers and designers understand our intentions
-            clearly <b>even
-                when we’re not there</b>.</p>
+        <!-- Onboarding -->
+        <div class="container" id="hn-prototype">
+            <div class="row">
+                <div class="col-lg-5 col-xl-6 hn-protoimg">
 
-        <h3>Client Feedback</h3>
-        <img src="img/icons/poraqui/feedback.png" alt="Thumbs Up Icon">
-        <p>Our client worked with us from the beginning of this project and we had <b>weekly meetings</b> to
-            showcase
-            our
-            work and <b>align expectations</b>.<br class="d-lg-none"><br class="d-lg-none">
-
-            At the end, our client was satisfied with our work and today I can see that <b>many of the features we
-                designed
-                are already implemented</b> in the app.</p>
-    </div>
-
-    <!-- Delivery - Large -->
-    <div class="container pa-dev d-md-none d-lg-block">
-        <h1>Delivery</h1>
-        <div class="row">
-            <div class="col-lg-3 pa-icons">
-                <img src="img/icons/poraqui/phone.png" alt="Phone Icon">
+                    <p>Interactive Prototype</p>
+                </div>
+                <div class="col-lg-7 col-xl-6">
+                    <h2>Onboarding</h2>
+                    <p>The onboarding experience was designed to make the user feel <b>comfortable</b> and <b>confident</b>.
+                        It consist of <b>4 steps</b>:</p> <br>
+                    <h3>Name</h3>
+                    <p>This makes the experience more personal and intimate.</p><br>
+                    <h3>Trusted Contacts</h3>
+                    <p>The user’s <b>support network</b> that includes friends, family or a therapist, for example.</p>
+                    <br>
+                    <h3>Blocked Contacts</h3>
+                    <p>People who have <b>no connection</b> with the user outside of the narcotic world, like dealers.</p>
+                    <br>
+                    <h3>Unsafe Contacts</h3>
+                    <p>People who the user <b>needs to keep contact</b> with, but can lead to dangerous situations,
+                        like
+                        some coworkers.</p>
+                    </p>
+                </div>
             </div>
-            <div class="col-lg-9">
-                <h3>Narrated Prototype</h3>
-                <p>We chose to present as our main deliverable a <b>narrated prototype</b>, in additional to <b>wireframes</b>
-                    and
-                    <b>written</b> documentation.
-                    <br><br>
-                    Since the features would be implemented by <b>another team</b> at a later date, the video
-                    showing <b>all
-                        the
-                        interactions step-by-step</b> helps other developers and designers understand our
-                    intentions clearly <b>even
-                        when we’re not there</b>.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 pa-icons">
-                <img src="img/icons/poraqui/feedback.png" alt="Thumbs Up Icon">
-            </div>
-            <div class="col-lg-9">
-                <h3>Client Feedback</h3>
-                <p>Our client worked with us from the beginning of this project and we had <b>weekly meetings</b>
-                    to showcase
-                    our
-                    work and <b>align expectations</b>.<br class="d-lg-none"><br class="d-lg-none">
+            <!-- Interface -->
+            <div class="row" id="hn-interface">
+                <div class="col-lg-7 col-xl-6">
+                    <h2>Interface</h2>
+                    <p>After the setup, the user can see 3 tabs:</p>
+                    <h3>Blocked</h3>
+                    <p>This tab is blocked by default to prevent the user from calling the contacts <b>from another
+                            phone</b>.</p>
 
-                    <br><br>At the end, our client was satisfied with our work and today I can see that <b>many of
-                        the features
-                        we
-                        designed
-                        are already implemented</b> in the app.</p>
+                    <h3>Friends</h3>
+                    <p>People on this list will be <b>notified by text</b> if the user reachs out to blocked or unsafe
+                        contacts
+                        and can get the code to <b>unlock and edit</b> blocked contacts after the first setup.</p>
+
+                    <h3>Attention</h3>
+                    <p>The list of <b>unsafe contacts</b>. They <b>will not be blocked</b> but the app will <b>send a
+                            text</b> to everyone
+                        in
+                        the support group.</p>
+                    </p>
+                </div>
+                <div class="col-lg-5 col-xl-6">
+                    <p>Interactive Prototype</p>
+                </div>
             </div>
         </div>
+
+
+        <!-------- Learnings -------->
+        <div class="container pa-conc" id="hn-conc">
+            <h1>Learnings</h1>
+            <h3>Expanded Public</h3>
+            <p>Despite being designed for recovering addicts, this app is helpful for anyone who needs to <b>avoid
+                    harmful
+                    contexts and addict behaviour</b>, no matter if it's related to drugs, food or an abusive partner.
+                This realizations is reflected on the <b>somewhat generic</b> interface.</p>
+
+            <h3>Platform Differences</h3>
+            <p>During this project, I learned a lot about the process of building apps and the <b>differences</b>
+                between
+                designing for Android and IOS, especially when it comes to <b>what is allowed or not</b> on each
+                platform.
+            </p>
+            <h3>Technical Limitations</h3>
+            <p>I know many of the features designed <b>need permissions</b> that are not possible to get. Still, I
+                enjoyed
+                working on a product that I'm confident could <b>help people</b>, even if just as an inspiration.</p>
+            </p>
+            <row class="contactme" id="hn-contact">
+                <h4>Still have questions?</h4>
+                <p>contact me</p>
+                <span class="socialmedia" id="social-o">
+                    <a href="#"><img src="img/icons/linkedin-o.png" alt="LinkedIn Icon" /></a>
+                    <a href="#"><img src="img/icons/twitter-o.png" alt="Twitter Icon" /></a>
+                    <a href="#"><img src="img/icons/mail-o.png" alt="Mail Icon" /></a>
+                </span>
+                <a href="#">Or go see more stuff <img src="img/icons/Arrow.png" alt="Arrow" id="arrow" /></a>
+            </row>
+        </div>
+
     </div>
 
-    <!-- Learnings -->
-    <div class="container pa-conc">
-        <h1>Learnings</h1>
-        <p>This project had many challenges, but the most difficult was to <b>instruct the team on how to do an
-                entire
-                UX
-                process in 6 weeks</b>. <br class="d-lg-none"><br class="d-lg-none">My coworkers didn’t have any
-            prior
-            experience with UX Design, so <b>I was acting as
-                a
-                designer and team leader</b> at the same time.
-            <br><br>
-            Thankfully we were able to understand early on what each member skills and interests were and we
-            distributed
-            the tasks accordingly, <b>making sure everyone would enjoy</b> and be proud of their participation on
-            the
-            project.</p>
-        <row class="contactme">
-            <h4>Still have questions?</h4>
-            <p>contact me</p>
-            <span class="socialmedia" id="social-o">
-                <a href="#"><img src="img/icons/linkedin-o.png" alt="LinkedIn Icon" /></a>
-                <a href="#"><img src="img/icons/twitter-o.png" alt="Twitter Icon" /></a>
-                <a href="#"><img src="img/icons/mail-o.png" alt="Mail Icon" /></a>
-            </span>
-            <a href="#">Or go see more stuff <img src="img/icons/Arrow.png" alt="Arrow" id="arrow" /></a>
-        </row>
     </div>
-    </div>
+
 
 
     <!-- Optional JavaScript -->
