@@ -538,6 +538,11 @@ header {
   top: -350px;
 }
 
+/** Solution **/
+iframe {
+  max-width: 300px;
+}
+
 #hn-interface h3 {
   padding-top: 20px;
 }
