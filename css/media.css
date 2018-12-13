@@ -275,6 +275,23 @@
     margin-right: 0;
   }
 
+  #hn-journey-carousel {
+    padding-top: 0;
+  }
+
+  .hn-j-carousel {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  #hn-journey-carousel p {
+    font-size: 18px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
   #hn-scenarios p {
     font-size: 17px;
     font-weight: 300;
@@ -285,13 +302,13 @@
 
   #hn-c-left {
     position: relative;
-    left: 10px;
+    left: 15px;
     top: 1px;
   }
 
   #hn-c-right {
     position: relative;
-    left: -10px;
+    left: -15px;
     top: 1px;
   }
 

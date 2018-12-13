@@ -544,6 +544,7 @@ header {
 }
 
 .hn-protoimg img {
+  padding-top: 20px;
   max-width: 300px;
 }
 

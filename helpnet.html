@@ -127,8 +127,8 @@
                     especially in a moment of
                     crisis when the pacient is feeling alone and more prone to relapse. <br> <br> A typical relapse
                     journey looks like this:</p>
-                <!-------- Carousel - Mobile -------->
-                <div id="hn-journey-carousel" class="carousel slide" data-ride="carousel">
+                <!-------- Journey - Mobile -------->
+                <div id="hn-journey-carousel" class="carousel slide d-none d-md-block d-lg-none" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#hn-journey-carousel" data-slide-to="0" class="active"></li>
                         <li data-target="#hn-journey-carousel" data-slide-to="1"></li>
@@ -137,35 +137,35 @@
                         <li data-target="#hn-journey-carousel" data-slide-to="4"></li>
                         <li data-target="#hn-journey-carousel" data-slide-to="5"></li>
                     </ol>
-                    <div class="carousel-inner pa-carousel">
-                        <div class="carousel-item active">
+                    <div class="carousel-inner hn-j-carousel">
+                        <div class="carousel-item active hn-j-carousel">
                             <img src="img/icons/helpnet/out.png" alt="Hospital Icon">
                             <p>1. The user finishes treatment and gets out of the facility</p>
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item hn-j-carousel">
                             <img src="img/icons/helpnet/distance.png" alt="Calendar Unchecked Icon">
                             <p>2. They distance themselves from the program</p>
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item hn-j-carousel">
                             <img src="img/icons/helpnet/stress.png" alt="Stressed Person Icon">
                             <p>3. Back to their original environment, stress starts piling up</p>
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item hn-j-carousel">
                             <img src="img/icons/helpnet/behaviour.png" alt="Sad Person Icon">
                             <p>4. The user goes back to their old habits, starting with small things</p>
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item hn-j-carousel">
                             <img src="img/icons/helpnet/isolation.png" alt="Vibrating Phone Icon">
                             <p>5. The user isolates themselves from their friends and sponsor</p>
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item hn-j-carousel">
                             <img src="img/icons/helpnet/relapse.png" alt="Alcohol Bottles Icon">
-                            <p>6. Feeling hurt and lonely,the user loses control and relapses</p>
+                            <p>6. Feeling hurt and lonely, the user loses control and relapses</p>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#hn-journey-carousel" role="button" data-slide="prev">
@@ -176,6 +176,35 @@
                         <span class="carousel-control-next-icon" id="hn-j-right" aria-hidden=" true"></span>
                         <span class="sr-only">Next</span>
                     </a>
+                </div>
+                <!-------- Journey - Desktop -------->
+                <div class="container-fluid d-md-none d-lg-block">
+                    <div class="row" id="hn-journey-md">
+                        <div class="col-md-2">
+                            <img src="img/icons/helpnet/out.png" alt="Hospital Icon">
+                            <p>1. The user finishes treatment and gets out of the facility</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/icons/helpnet/distance.png" alt="Calendar Unchecked Icon">
+                            <p>2. They distance themselves from the program</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/icons/helpnet/stress.png" alt="Stressed Person Icon">
+                            <p>3. Back to their original environment, stress starts piling up</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/icons/helpnet/behaviour.png" alt="Sad Person Icon">
+                            <p>4. The user goes back to their old habits, starting with small things</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/icons/helpnet/isolation.png" alt="Vibrating Phone Icon">
+                            <p>5. The user isolates themselves from their friends and sponsor</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/icons/helpnet/relapse.png" alt="Alcohol Bottles Icon">
+                            <p>6. Feeling hurt and lonely, the user loses control and relapses</p>
+                        </div>
+                    </div>
                 </div>
                 <!-------- Illustration - Desktop-------->
 
@@ -302,8 +331,8 @@
                 providing enough <b>time</b> to recover and <b>strength</b> to resist this urge.</p>
         </div>
 
-        <!-- Onboarding -->
-        <div class="container" id="hn-prototype">
+        <!-- Prototype - Mobile -->
+        <div class="container " id="hn-prototype">
             <div class="row">
                 <div class="col-lg-5 col-xl-6 hn-protoimg">
                     <a href="https://invis.io/BCOSMHBSUT8"><img src="img/helpnet/onboarding.png" alt="Onboarding Prototype" /></a>
@@ -330,6 +359,10 @@
             </div>
             <!-- Interface -->
             <div class="row" id="hn-interface">
+                <div class="col-lg-5 col-xl-6 hn-protoimg">
+                    <a href="https://invis.io/Y5PLN31X7T8"><img src="img/helpnet/interface.png" alt="Interface Prototype" /></a>
+                    <p>Click for the Prototype</p>
+                </div>
                 <div class="col-lg-7 col-xl-6">
 
                     <h2>Interface</h2>
@@ -350,10 +383,7 @@
                         the support group.</p><br>
                     </p>
                 </div>
-                <div class="col-lg-5 col-xl-6 hn-protoimg">
-                    <a href="https://invis.io/Y5PLN31X7T8"><img src="img/helpnet/interface.png" alt="Interface Prototype" /></a>
-                    <p>Click for the Prototype</p>
-                </div>
+
             </div>
         </div>
 
