@@ -713,3 +713,62 @@ header {
 #about-header h1 {
   padding-top: 50px;
 }
+
+/********** Where I've been *********/
+.where-part {
+  padding-top: 10px;
+}
+
+.where-part p {
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.where-part h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.where-part h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.where-part h4 {
+  font-family: 'Clear Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+/********** More about me *********/
+#about-more {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#about-more h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#profile-img {
+  border-radius: 50%;
+  max-width: 200px;
+}
+
+.about-social {
+  margin-top: 40px;
+}
+
+.about-social h2 {
+  margin-top: 35px;
+}
+
+.about-sm {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
