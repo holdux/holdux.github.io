@@ -539,7 +539,11 @@ header {
 }
 
 /** Solution **/
-iframe {
+#hn-sol {
+  padding-bottom: 30px;
+}
+
+.hn-protoimg img {
   max-width: 300px;
 }
 
