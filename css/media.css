@@ -275,6 +275,7 @@
     margin-right: 0;
   }
 
+  /** User Journey **/
   #hn-journey-carousel {
     padding-top: 0;
   }
@@ -292,6 +293,8 @@
     margin-top: 10px;
   }
 
+  /** User Scenarios **/
+
   #hn-scenarios p {
     font-size: 17px;
     font-weight: 300;
@@ -302,15 +305,17 @@
 
   #hn-c-left {
     position: relative;
-    left: 15px;
+    left: 0px;
     top: 1px;
   }
 
   #hn-c-right {
     position: relative;
-    left: -15px;
+    left: 0px;
     top: 1px;
   }
+
+  /** Solution **/
 
   #hn-sol {
     padding-top: 0;
@@ -319,6 +324,10 @@
   #hn-prototype {
     padding-left: 120px;
     padding-right: 120px;
+  }
+
+  .hn-protoimg img {
+    padding-top: 30px;
   }
 }
 
@@ -666,6 +675,8 @@
     padding-top: 0px;
   }
 
+  /** User Journey **/
+
   #hn-journey {
     padding-top: 0;
   }
@@ -673,6 +684,33 @@
   #hn-journey p {
     text-align: center;
   }
+
+  /** User Journey **/
+  .hn-j-step p {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .hn-j-step img {
+    padding-top: 30px !important;
+  }
+
+  .hn-protoimg {
+    margin-top: 100px;
+  }
+
+  .hn-protoimg img {
+    max-width: 500px;
+    position: relative;
+    left: -70px;
+  }
+
+  #hn-prototype h3 {
+    text-align: left;
+  }
+
+  /** User Scenarios **/
 
   #hn-scenarios img {
     max-width: 400px;
@@ -744,7 +782,9 @@
 }
 
 /*************** Extra large devices (large desktops, 1920px and up) ***************/
+
 @media (min-width: 1920px) {
+
   /************ Global Styles ***************/
 
   /****** Navbar - Default *******/

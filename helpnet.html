@@ -113,6 +113,9 @@
                         this solution?</p>
                 </div>
             </div>
+
+            <!------- User Journey  -------->
+
             <div class="projectgoal" id="hn-journey">
                 <h2>User Journey</h2>
                 <p> I chose as the <b>main public</b> for this app the patients who are <b>finishing treatment</b> and
@@ -127,8 +130,10 @@
                     especially in a moment of
                     crisis when the pacient is feeling alone and more prone to relapse. <br> <br> A typical relapse
                     journey looks like this:</p>
-                <!-------- Journey - Mobile -------->
-                <div id="hn-journey-carousel" class="carousel slide d-none d-md-block d-lg-none" data-ride="carousel">
+
+                <!-------- Journey - Hide on LG and Up -------->
+
+                <div id="hn-journey-carousel" class="carousel slide d-lg-none" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#hn-journey-carousel" data-slide-to="0" class="active"></li>
                         <li data-target="#hn-journey-carousel" data-slide-to="1"></li>
@@ -177,30 +182,34 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-                <!-------- Journey - Desktop -------->
-                <div class="container-fluid d-md-none d-lg-block">
-                    <div class="row" id="hn-journey-md">
-                        <div class="col-md-2">
+
+                <!-------- Journey - Hide on MD and Down -------->
+
+                <div class="d-none d-lg-block" id="hn-journey-lg">
+                    <div class="row">
+                        <div class="col-md-4 hn-j-step">
                             <img src="img/icons/helpnet/out.png" alt="Hospital Icon">
-                            <p>1. The user finishes treatment and gets out of the facility</p>
+                            <p><b>1.</b> The user finishes treatment and gets out of the facility</p>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-4 hn-j-step">
                             <img src="img/icons/helpnet/distance.png" alt="Calendar Unchecked Icon">
                             <p>2. They distance themselves from the program</p>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-4 hn-j-step">
                             <img src="img/icons/helpnet/stress.png" alt="Stressed Person Icon">
                             <p>3. Back to their original environment, stress starts piling up</p>
                         </div>
-                        <div class="col-md-2">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 hn-j-step">
                             <img src="img/icons/helpnet/behaviour.png" alt="Sad Person Icon">
-                            <p>4. The user goes back to their old habits, starting with small things</p>
+                            <p>4. The user slowly goes back to their old habits and thoughts</p>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-4 hn-j-step">
                             <img src="img/icons/helpnet/isolation.png" alt="Vibrating Phone Icon">
                             <p>5. The user isolates themselves from their friends and sponsor</p>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-4 hn-j-step">
                             <img src="img/icons/helpnet/relapse.png" alt="Alcohol Bottles Icon">
                             <p>6. Feeling hurt and lonely, the user loses control and relapses</p>
                         </div>
@@ -209,7 +218,8 @@
                 <!-------- Illustration - Desktop-------->
 
                 <p>After this realization, I decided to develop a solution focused on this moment of <b>crisis and
-                        solitute</b>, using <b>3 scenarios</b> to consider a few reasons why the crisis begins in the
+                        solitute</b>, using <b>3 scenarios</b> to consider a few reasons why the crisis begins in
+                    the
                     first place. </p>
 
             </div>
@@ -232,7 +242,8 @@
                             <div class="col-lg-8">
                                 <h3>Scenario 1</h3>
 
-                                <p>Louise (28, F) has been clean for 1 year, but she has just lost her job. She feels
+                                <p>Louise (28, F) has been clean for 1 year, but she has just lost her job. She
+                                    feels
                                     depressed
                                     and is at risk of relapsing.
                                     <br><br>
@@ -243,7 +254,8 @@
                                     she
                                     doesn’t call them.
                                     <br><br>
-                                    Louise feels lonely, but she remembers of an old friend who wouldn’t mind if she
+                                    Louise feels lonely, but she remembers of an old friend who wouldn’t mind if
+                                    she
                                     wants to
                                     go out for <b>just one drink</b>.</p>
                             </div>
@@ -260,7 +272,8 @@
                             <div class="col-lg-8">
                                 <h3>Scenario 2</h3>
 
-                                <p>It’s Shaun’s (16, M) 3rd week out of rehab. He’s doing great, but he’s starting to
+                                <p>It’s Shaun’s (16, M) 3rd week out of rehab. He’s doing great, but he’s starting
+                                    to
                                     feel
                                     lonely.
                                     <br><br>
@@ -287,7 +300,8 @@
                             <div class="col-lg-8">
                                 <h3>Scenario 3</h3>
 
-                                <p>Paul (40, M) has been home for 3 months. He’s doing everything he’s supposed to, but
+                                <p>Paul (40, M) has been home for 3 months. He’s doing everything he’s supposed to,
+                                    but
                                     his
                                     family won’t trust him.
                                     <br><br>
@@ -324,9 +338,11 @@
             <p>During the research process, I realized that what most commonly drives people to relapse is <b>feeling
                     lonely</b> and <b>returning to old habits</b>.<br><br>
 
-                With this in mind, I created an app that <b>detects</b> when the user contacts people that could drive
+                With this in mind, I created an app that <b>detects</b> when the user contacts people that could
+                drive
                 them to
-                relapse, <b>blocks</b> any calls and texts and immediately <b>connects</b> the user with their support
+                relapse, <b>blocks</b> any calls and texts and immediately <b>connects</b> the user with their
+                support
                 network,
                 providing enough <b>time</b> to recover and <b>strength</b> to resist this urge.</p>
         </div>
@@ -334,15 +350,10 @@
         <!-- Prototype - Mobile -->
         <div class="container" id="hn-prototype">
             <div class="row">
-                <!-- IMG - SM and down-->
-                <div class="col-lg-5 col-xl-6 hn-protoimg d-none d-sm-block d-md-none">
-                    <a href="https://invis.io/BCOSMHBSUT8"><img src="img/helpnet/onboarding.png" alt="Onboarding Prototype" /></a>
-                    <p>Click for the Prototype</p>
-                </div>
-                <!-- Prototype - MD and up -->
-                <div class="col-lg-5 col-xl-6 d-sm-none d-md-block">
-                    <iframe width="438" height="930" src="//invis.io/JRPFHR7T4NK" frameborder="0" allowfullscreen></iframe>
-                    <p>Interactive Prototype</p>
+
+                <div class="col-lg-5 col-xl-6 hn-protoimg">
+                    <a href="https://invis.io/BCOSMHBSUT8"><img src="img/helpnet/onboarding.gif" alt="Onboarding Prototype" /></a>
+                    <p>Interactive Prototype by Invision</p>
                 </div>
 
                 <div class="col-lg-7 col-xl-6">
@@ -355,7 +366,8 @@
                     <p>The user’s <b>support network</b> that includes friends, family or a therapist, for example.</p>
                     <br>
                     <h3>Blocked Contacts</h3>
-                    <p>People who have <b>no connection</b> with the user outside of the narcotic world, like dealers.</p>
+                    <p>People who have <b>no connection</b> with the user outside of the narcotic world, like
+                        dealers.</p>
                     <br>
                     <h3>Unsafe Contacts</h3>
                     <p>People who the user <b>needs to keep contact</b> with, but can lead to dangerous situations,
@@ -367,9 +379,9 @@
             <!-- Interface -->
             <div class="row" id="hn-interface">
                 <!-- IMG - SM and down-->
-                <div class="col-lg-5 col-xl-6 hn-protoimg d-none d-sm-block d-md-none">
-                    <a href="https://invis.io/Y5PLN31X7T8"><img src="img/helpnet/interface.png" alt="Interface Prototype" /></a>
-                    <p>Click for the Prototype</p>
+                <div class="col-lg-5 col-xl-6 hn-protoimg">
+                    <a href="https://invis.io/Y5PLN31X7T8"><img src="img/helpnet/interface.gif" alt="Interface Prototype" /></a>
+                    <p>Interactive Prototype by Invision</p>
                 </div>
 
                 <div class="col-lg-7 col-xl-6">
@@ -380,12 +392,14 @@
                             phone</b>.</p>
 
                     <h3>Friends</h3>
-                    <p>People on this list will be <b>notified by text</b> if the user reachs out to blocked or unsafe
+                    <p>People on this list will be <b>notified by text</b> if the user reachs out to blocked or
+                        unsafe
                         contacts
                         and can get the code to <b>unlock and edit</b> blocked contacts after the first setup.</p>
 
                     <h3>Attention</h3>
-                    <p>The list of <b>unsafe contacts</b>. They <b>will not be blocked</b> but the app will <b>send a
+                    <p>The list of <b>unsafe contacts</b>. They <b>will not be blocked</b> but the app will <b>send
+                            a
                             text</b> to everyone
                         in
                         the support group.</p><br>
@@ -404,7 +418,8 @@
             <h3>Expanded Public</h3>
             <p>Despite being designed for recovering addicts, this app is helpful for anyone who needs to <b>avoid
                     harmful
-                    contexts and addict behaviour</b>, no matter if it's related to drugs, food or an abusive partner.
+                    contexts and addict behaviour</b>, no matter if it's related to drugs, food or an abusive
+                partner.
                 This realizations is reflected on the <b>somewhat generic</b> interface.</p>
 
             <h3>Platform Differences</h3>

@@ -527,6 +527,10 @@ header {
   padding-bottom: 55px;
 }
 
+.hn-j-carousel {
+  margin-bottom: 20px;
+}
+
 #hn-c-left {
   position: relative;
   left: -5px;
@@ -544,12 +548,20 @@ header {
 }
 
 .hn-protoimg img {
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
   max-width: 300px;
 }
 
 #hn-interface h3 {
   padding-top: 20px;
+}
+
+/** Conclusion **/
+
+#hn-conc h1 {
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 #hn-conc h3 {
@@ -659,6 +671,10 @@ header {
   flex-direction: column;
 }
 
+.about-body header {
+  height: auto;
+}
+
 .about-body h1 {
   font-size: 40px;
   font-family: 'Raleway', sans-serif;
@@ -683,7 +699,7 @@ header {
   font-weight: 700;
 }
 
-.about-body a {
+.about-content a {
   color: #2D2D2D;
   text-decoration: underline;
 }
