@@ -696,8 +696,12 @@
     padding-top: 30px !important;
   }
 
-  .hn-protoimg {
-    margin-top: 100px;
+  .hn-gif-onboarding {
+    margin-top: 120px;
+  }
+
+  .hn-gif-interface {
+    margin-top: 50px;
   }
 
   .hn-protoimg img {
