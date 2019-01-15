@@ -1017,14 +1017,14 @@
   /***** img *****/
 
   #projeto1 img {
-    max-height: 1000px;
+    max-height: 900px;
     left: -200px;
   }
 
   #projeto2 img {
-    max-height: 1200px;
+    max-height: 1050px;
     max-width: 2000px;
-    left: -575px;
+    left: -490px;
     top: 30px;
   }
 

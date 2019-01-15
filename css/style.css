@@ -455,7 +455,7 @@ header {
 }
 
 #hn-journey-carousel img {
-  max-width: 250px;
+  max-width: 100px;
 }
 
 #hn-journey-carousel p {
@@ -471,6 +471,11 @@ header {
 #hn-j-left {
   position: relative;
   top: -30px;
+}
+
+.hn-j-step img {
+  max-width: 70px !important;
+
 }
 
 /** Scenarios **/
