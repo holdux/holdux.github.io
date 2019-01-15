@@ -813,3 +813,11 @@ a:hover {
   margin-top: 30px;
   margin-bottom: 100px;
 }
+
+.hide-itens {
+  opacity: .5;
+}
+
+.is-selected, .is-selected:hover {
+  color: #000 !important
+}
