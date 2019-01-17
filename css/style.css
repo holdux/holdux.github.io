@@ -581,91 +581,63 @@ header {
   background-image: linear-gradient(to left, #00205c 24%, #003195 72%, #0040ca 100%);
 }
 
-#aeon-info p {
-  font-size: 15px;
-  font-style: italic;
+/******* The Company *******/
+.ac-company {
+  margin-bottom: 100px;
 }
 
-#ac-company {
-  padding-bottom: 40px;
-}
-
-#ac-company h2 {
-  margin-top: 0px;
-}
-
-#ac-company p {
-  font-style: italic;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-#ac-comp-sub p {
-  font-style: normal;
-  padding-top: 15px;
-  font-size: 16px;
-}
-
-#ac-carousel img {
+.ac-company img {
   max-width: 200px;
-  max-height: 300px;
-  padding-bottom: 30px;
-}
-
-#ac-carousel p {
-  padding-bottom: 60px;
-}
-
-#ac-p-left {
-  position: relative;
-  left: -15px;
-  top: -30px;
-}
-
-#ac-p-right {
-  position: relative;
-  left: 15px;
-  top: -30px;
-}
-
-#ac-logo img {
-  max-width: 270px;
   margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+/******* Visual Identity *******/
+
+/** The Logo **/
+.ac-logo h2 {
+  margin-bottom: 20px;
+}
+
+.ac-logo p {
+  margin-top: 20px;
+}
+
+.ac-logo img {
+  max-width: 250px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
-#ac-logo-dark img {
+#ac-logo-dark {
   background-color: #0A1625;
   border-radius: 15px;
-  padding: 20px;
-  margin-top: 15px;
-  margin-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 500px;
 }
 
-#ac-webid-carousel {
-  margin-top: 50px;
-  margin-bottom: 60px;
+/** The Website **/
+
+.moodboards p {
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
-#ac-webid-carousel img {
+.ac-endmb p {
+  margin-top: 0px;
+  margin-bottom: 80px;
+}
+
+.moodboards img {
   max-width: 300px;
 }
 
-.ac-mood {
-  margin-bottom: 30px;
-}
+/******* Web Presence *******/
 
-#ac-wid-left {
-  position: relative;
-  left: -40px;
-  top: -250px;
-}
-
-#ac-wid-right {
-  position: relative;
-  left: 30px;
-  top: -250px;
-}
+/** The Website **/
 
 
 /****************** About *******************/
@@ -818,6 +790,7 @@ a:hover {
   opacity: .5;
 }
 
-.is-selected, .is-selected:hover {
+.is-selected,
+.is-selected:hover {
   color: #000 !important
 }
