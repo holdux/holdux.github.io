@@ -772,7 +772,7 @@ header {
 .about-filter a:focus,
 a:hover {
   font-weight: 600;
-  color: #2d2d2d;
+  color: #2D2D2D;
 }
 
 .about-filter p {
@@ -807,6 +807,10 @@ a:hover {
   border-left: 1px solid #5B5B5B;
 }
 
+.timeline-title {
+  width: 100%;
+}
+
 .timeline-item img {
   float: left;
   max-width: 50px;
@@ -815,8 +819,10 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.timeline-title {
-  display: block;
+.timeline-body {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .timeline-item::before {
@@ -896,7 +902,16 @@ a:hover {
   -o-transition: opacity .3s ease-out;
 }
 
+.show-itens {
+  opacity: 1;
+  transition: opacity .3s ease-out;
+  -moz-transition: opacity .3s ease-out;
+  -webkit-transition: opacity .3s ease-out;
+  -o-transition: opacity .3s ease-out;
+}
+
 .is-selected,
 .is-selected:hover {
-  color: #000 !important
+  font-weight: 600 !important;
+  color: #2D2D2D !important;
 }

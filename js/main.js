@@ -40,21 +40,17 @@ links.forEach(link => {
 })
 
 function controlVisibilityItens(className) {
-  removeHideClass()
-  if (className) {
-    addHideClass(className)
-  }
+  toggleVisibleItens(className)
 }
 
-function addHideClass(className) {
-  let itens = document.querySelectorAll(`.${className}`)
-  itens.forEach(item => {
-    item.classList.add('hide-itens')
-  })
-}
-
-function removeHideClass() {
+function toggleVisibleItens(className) {
   allItnes.forEach(item => {
-    item.classList.remove('hide-itens')
+    if (item.classList.contains(className)) {
+      item.classList.remove('show-itens')
+      item.classList.add('hide-itens')
+    } else {
+      item.classList.remove('hide-itens')
+      item.classList.add('show-itens')
+    }
   })
 }
