@@ -695,6 +695,10 @@ header {
   max-width: 300px;
 }
 
+.web-img {
+  max-width: 300px;
+}
+
 /******* Web Presence *******/
 
 /** The Website **/
@@ -885,7 +889,11 @@ a:hover {
 }
 
 .hide-itens {
-  opacity: .5;
+  opacity: .2;
+  transition: opacity .3s ease-out;
+  -moz-transition: opacity .3s ease-out;
+  -webkit-transition: opacity .3s ease-out;
+  -o-transition: opacity .3s ease-out;
 }
 
 .is-selected,

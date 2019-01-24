@@ -1,19 +1,20 @@
 // Look for .hamburger
 var hamburger = document.querySelector('.hamburger')
 // On click
-hamburger.addEventListener('click', function() {
+hamburger.addEventListener('click', function () {
   // Toggle class "is-active"
   hamburger.classList.toggle('is-active')
   // Do something else, like open/close menu
 })
 
 // Cocoen
-document.querySelectorAll('.cocoen').forEach(function(element) {
+document.querySelectorAll('.cocoen').forEach(function (element) {
   new Cocoen(element)
 })
 
+// Timeline
 const links = document.querySelectorAll('.link')
-const allItnes = document.querySelectorAll('.where-part')
+const allItnes = document.querySelectorAll('.timeline-item')
 
 
 links.forEach(link => {
@@ -40,7 +41,7 @@ links.forEach(link => {
 
 function controlVisibilityItens(className) {
   removeHideClass()
-  if (!className) {
+  if (className) {
     addHideClass(className)
   }
 }
