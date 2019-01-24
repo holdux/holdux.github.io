@@ -329,6 +329,30 @@
   .hn-protoimg img {
     padding-top: 30px;
   }
+
+  /************ About ***************/
+  #about-header {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  #about-more {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .where-part {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  .about-social h2 {
+    font-size: 25px;
+  }
+
+  .about-sm {
+    margin-top: 25px;
+  }
 }
 
 /*************** Large devices (desktops, 992px and up) ***************/
@@ -781,6 +805,40 @@
 
   #hn-conc p {
     text-align: center;
+  }
+
+  /************ About ***************/
+  #about-header {
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+
+
+  .where-part {
+    padding: 0;
+    margin: 0;
+  }
+
+  .where-part h3 {
+    text-align: center;
+  }
+
+  .where-part p {
+
+    text-align: center;
+  }
+
+  #about-more {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .about-social h2 {
+    font-size: 25px;
+  }
+
+  .about-sm {
+    margin-top: 25px;
   }
 
 }
