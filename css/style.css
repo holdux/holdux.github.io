@@ -715,6 +715,24 @@ header {
   margin-bottom: 10%;
 }
 
+/******* Research *******/
+.ac-research {
+  margin-top: 12%;
+  margin-bottom: 15%;
+}
+
+.ac-research img {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  max-width: 70px;
+}
+
+/******* Data Analysis *******/
+
+
+
+
+
 /****************** About *******************/
 
 .about-body {
