@@ -1,0 +1,487 @@
+/*************** Large devices (desktops, 992px and up) ***************/
+@media (min-width: 992px) {
+    /************ Global Styles ***************/
+
+    /****** Navbar - Default *******/
+
+    #myNavbar {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    /****************** Home ******************/
+
+    /****** Header *******/
+
+    header {
+        height: 100%;
+    }
+
+    #homeheader h1 {
+        font-size: 65px;
+    }
+
+    #homeheader b {
+        font-size: 70px;
+    }
+
+    #homeheader p {
+        font-size: 28px;
+    }
+
+    #headerarrow {
+        margin-bottom: 55px;
+    }
+
+    #headerarrow img {
+        max-width: 40px;
+    }
+
+    /****** Home Sections *******/
+
+    /***** img *****/
+
+    .home-projects {
+        display: flex;
+        align-items: center;
+    }
+
+    .home-projects img {
+        padding: 0;
+        margin-left: 0;
+    }
+
+    #projeto1 img {
+        max-height: 640px;
+        position: relative;
+        right: -30px;
+    }
+
+    #projeto2 img {
+        position: relative;
+        left: -80px;
+        top: 20px;
+        max-height: 650px;
+        max-width: 1000px;
+    }
+
+    #projeto3 img {
+        position: relative;
+        left: -70px;
+        max-height: 550px;
+        max-width: 1000px;
+    }
+
+    /***** txt *****/
+
+    .hometext {
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .home-projects h2 {
+        font-size: 58px;
+        padding-bottom: 10px;
+    }
+
+    .home-projects h3 {
+        font-size: 22px;
+        padding-bottom: 0;
+    }
+
+    .home-projects h4 {
+        font-size: 19px;
+        margin-bottom: 35px;
+    }
+
+    .home-projects p {
+        font-size: 22px;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    #homecontact {
+        height: 100%;
+    }
+
+    #homecontact h1 {
+        font-size: 60px;
+    }
+
+    #homecontact h2 {
+        padding: 0;
+        font-size: 28px;
+    }
+
+    .socialmedia {
+        margin-top: 90px;
+    }
+
+    .socialmedia img {
+        min-width: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: auto;
+    }
+
+    /**************** Project Pages ****************/
+
+    /** Header **/
+
+    .projects-header {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #header-text {
+        align-self: center;
+        padding-bottom: 10%;
+    }
+
+    .projects-header h1,
+    p {
+        text-align: left;
+    }
+
+    .projects-header h1 {
+        font-size: 55px;
+    }
+
+    /** Body **/
+
+    .projectgoal {
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-bottom: 150px;
+        padding-top: 150px;
+    }
+
+    .projectbody h1 {
+        font-size: 55px;
+        padding-bottom: 35px;
+    }
+
+    .projectbody h2 {
+        font-size: 40px;
+    }
+
+    .projectbody h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .projectbody p {
+        font-size: 20px;
+    }
+
+    /******** PorAqui *********/
+
+    /** Research **/
+    #bigger-icon img {
+        padding-bottom: 20px;
+    }
+
+    .pa-research img {
+        margin-bottom: 40px;
+    }
+
+    .pa-research p {
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    /** Development **/
+
+    .pa-dev {
+        padding-top: 100px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .pa-dev h3 {
+        font-size: 28px;
+        margin-top: 70px;
+        margin-bottom: 40px;
+        margin-left: 95px;
+        text-align: left;
+    }
+
+    .pa-dev p {
+        margin-left: 95px;
+        margin-right: 100px;
+        margin-bottom: 50px;
+    }
+
+    .pa-icons {
+        align-self: center;
+        padding-left: 100px;
+    }
+
+    .pa-icons img {
+        max-width: 200px;
+    }
+
+    /** Carousel **/
+
+    .pa-carousel {
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .pa-carousel img {
+        max-height: 650px;
+    }
+
+    .pa-carousel p {
+        font-size: 26px;
+        text-align: center;
+
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .features img {
+        max-height: 650px;
+        margin-top: 20px;
+    }
+
+    .features p {
+        font-size: 24px;
+        margin-top: 25px;
+        font-weight: 400;
+    }
+
+    /** Delivery **/
+    .pa-dev h1 {
+        padding-bottom: 0;
+    }
+
+    .pa-conc {
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-bottom: 150px;
+    }
+
+    .pa-conc p {
+        margin: 0;
+    }
+
+    .pa-conc h1 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+    }
+
+    .contactme {
+        padding-bottom: 100px;
+        padding-top: 60px;
+
+    }
+
+    .contactme p {
+        text-align: center;
+    }
+
+    .contactme h4 {
+        font-size: 18px;
+        margin-top: 100px;
+        margin-bottom: 15px;
+    }
+
+    .contactme a {
+        font-size: 18px;
+    }
+
+    #social-o {
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+
+    /********************* HelpNet *********************/
+    #helpnetheader img {
+        position: relative;
+        left: -50px;
+
+    }
+
+    #hn-goal {
+        padding-top: 160px;
+        padding-bottom: 60px;
+    }
+
+    #hn-goal h1 {
+        padding-bottom: 50px;
+    }
+
+    #hn-goal p {
+        text-align: center;
+    }
+
+    /** Research **/
+
+    #hn-research h1 {
+        padding-bottom: 50px;
+        margin-left: 95px;
+        text-align: left;
+    }
+
+    #hn-research img {
+        max-width: 100px;
+        padding-top: 80px;
+    }
+
+    #doctoricon img {
+        max-width: 140px;
+        padding-top: 0px;
+    }
+
+    /** User Journey **/
+
+    #hn-journey {
+        padding-top: 0;
+    }
+
+    #hn-journey p {
+        text-align: center;
+    }
+
+    /** User Journey **/
+    .hn-j-step p {
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .hn-j-step img {
+        padding-top: 30px !important;
+    }
+
+    .hn-gif-onboarding {
+        margin-top: 120px;
+    }
+
+    .hn-gif-interface {
+        margin-top: 50px;
+    }
+
+    .hn-protoimg img {
+        max-width: 500px;
+        position: relative;
+        left: -70px;
+    }
+
+    #hn-prototype h3 {
+        text-align: left;
+    }
+
+    /** User Scenarios **/
+
+    #hn-scenarios img {
+        max-width: 400px;
+        position: relative;
+        top: 21%;
+        left: 30%;
+    }
+
+    #hn-scenarios h3 {
+        text-align: left;
+        padding-left: 130px;
+    }
+
+    #hn-scenarios p {
+        text-align: left;
+        padding-right: 150px;
+        padding-bottom: 50px;
+    }
+
+    #hn-scenarios {
+        padding-bottom: 90px;
+    }
+
+    #hn-c-left {
+        position: relative;
+        left: -50px;
+    }
+
+    #hn-sol h1 {
+        padding-bottom: 50px;
+    }
+
+    #hn-sol p {
+        text-align: center;
+    }
+
+    #hn-prototype h2,
+    h3 {
+        text-align: left;
+    }
+
+    #hn-prototype h3 {
+        font-size: 23px;
+    }
+
+    #hn-prototype p {
+        padding-right: 0px;
+    }
+
+    #hn-interface {
+        padding-top: 100px;
+    }
+
+    #hn-conc h1 {
+        padding-top: 150px;
+        padding-bottom: 0px;
+    }
+
+    #hn-conc h3 {
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 5px;
+    }
+
+    #hn-conc p {
+        text-align: center;
+    }
+
+    /************ About ***************/
+    #about-header {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+
+
+    .where-part {
+        padding: 0;
+        margin: 0;
+    }
+
+    .where-part h3 {
+        text-align: center;
+    }
+
+    .where-part p {
+
+        text-align: center;
+    }
+
+    #about-more {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .about-social h2 {
+        font-size: 25px;
+    }
+
+    .about-sm {
+        margin-top: 25px;
+    }
+
+}
