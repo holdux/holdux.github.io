@@ -729,8 +729,35 @@ header {
 
 /******* Data Analysis *******/
 
+.ac-data img {
+  max-width: 220px;
+  max-height: 200px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
+.ac-data h4 {
+  font-size: 20px;
+  font-family: 'ClearSans', sans-serif;
+  font-weight: 500;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
+.ac-cell {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.ac-doubts img {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 70px;
+}
+
+.ae-conc {
+  margin-top: 20%;
+}
 
 
 /****************** About *******************/
