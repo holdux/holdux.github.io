@@ -146,14 +146,18 @@
     }
 
     .projects-header h1 {
-        font-size: 55px;
+        font-size: 50px;
+    }
+
+    .projects-header p {
+        font-size: 30px;
     }
 
     /** Body **/
 
     .projectgoal {
-        padding-left: 200px;
-        padding-right: 200px;
+        padding-left: 17%;
+        padding-right: 17%;
         padding-bottom: 150px;
         padding-top: 150px;
     }
@@ -174,7 +178,7 @@
     }
 
     .projectbody p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     /******** PorAqui *********/
@@ -482,6 +486,84 @@
 
     .about-sm {
         margin-top: 25px;
+    }
+
+    /****************** Aeon Cybernetics ******************/
+
+    #aeon-header img {
+        max-width: 525px;
+    }
+
+    .column-center {
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+
+    .column-center-lg {
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+
+    /**** The Company ****/
+    .ac-company {
+        margin-bottom: 15%;
+    }
+
+    .ac-company img {
+        margin-top: 5%;
+    }
+
+    .ac-logo {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    /**** Web Presence ****/
+
+    .ac-webp {
+        margin-top: 15%;
+    }
+
+    /**** Research ****/
+    .ac-research {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .research-module h3 {
+        text-align: left;
+    }
+
+    /**** Data Analysis ****/
+
+    .ac-data h3 {
+        margin-top: 7%;
+    }
+
+    .ac-data h4 {
+        text-align: left;
+    }
+
+    .ac-data img {
+        max-width: 225px;
+        max-height: 225px;
+    }
+
+    .adata-cell {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .ac-doubts h3 {
+        margin-top: 20%;
+    }
+
+    .doubts-module img {
+        max-width: 80px;
+    }
+
+    .ae-conc {
+        margin-top: 15%;
     }
 
 }

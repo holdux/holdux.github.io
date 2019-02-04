@@ -332,7 +332,108 @@
         padding-top: 30px;
     }
 
-    /************ About ***************/
+    /********************* Aeon *********************/
+    .column-center {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #projects-header img {
+        max-width: 600px;
+    }
+
+    /********* Visual Identity *********/
+
+    .ac-logo img {
+        max-width: 200px;
+    }
+
+    .logo-light {
+        margin-top: 2%;
+    }
+
+    #ac-logo-dark {
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .moodboards {
+        margin-top: 5%;
+    }
+
+    .mood-text {
+        margin-top: 5%;
+    }
+
+    .ac-endmb p {
+        padding-top: 10%;
+    }
+
+    /********* Web Presence *********/
+
+    .ac-website h2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .aeon-web img {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        max-width: 500px;
+    }
+
+    /********* Research *********/
+    .ac-research {
+        margin: 0;
+    }
+
+    .research-module {
+        margin-top: 10%;
+        margin-bottom: 10%;
+
+        text-align: left;
+    }
+
+    .research-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .research-img img {
+        align-self: center;
+        max-width: 80px;
+    }
+
+    /********* Data Analysis *********/
+    .adata-cell {
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+
+    .adata-cell h4 {
+        margin-bottom: 2%;
+        margin-top: 30px;
+    }
+
+    .adata-cell img {
+        margin-bottom: 0;
+        max-width: 260px;
+        max-height: 240px;
+    }
+
+    .ac-doubts h3 {
+        margin-top: 20%;
+    }
+
+    .first-module {
+        margin-top: 7%;
+    }
+
+
+    /********************* About *********************/
+
     #about-header {
         padding-left: 70px;
         padding-right: 70px;
