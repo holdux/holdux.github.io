@@ -2,79 +2,96 @@
 
 @media (min-width: 768px) {
 
-    /********************* Home *********************/
+    /*************************************************** Home *************************************************/
 
-    /****** Header *******/
-    header {
-        height: 950px;
-    }
+    /********************** Home -> Header **********************/
+
+    /**** Home -> Header: Text ****/
 
     #homeheader h1 {
-        font-size: 50px;
+        font-size: 3.125rem;
     }
 
     #homeheader b {
-        font-size: 55px;
+        font-size: 3.438rem;
     }
 
     #homeheader p {
-        font-size: 24px;
+        font-size: 1.500rem;
     }
 
-    /****** Home Sections *******/
+    /********************* Home -> Sections **********************/
 
     .home-projects {
-        height: 100%;
-        padding-top: 50px;
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
 
     .home-projects img {
         max-height: 550px;
     }
 
+    /**** Home -> Sections: Text *****/
+
     .home-projects h2 {
-        font-size: 40px;
+        font-size: 2.500rem;
+        padding-top: 5%;
     }
 
     .home-projects h3 {
-        font-size: 20px;
+        font-size: 1.250rem;
     }
 
     .home-projects h4 {
-        font-size: 20px;
+        font-size: 1.250rem;
     }
 
     .home-projects p {
-        font-size: 20px;
-        padding-top: 15px;
+        font-size: 1.250rem;
+        padding-top: 3%;
         padding-left: 10%;
         padding-right: 10%;
     }
 
+    /**** Home -> Sections: Elements *****/
+
     .homebtn {
-        font-size: 19px;
+        font-size: 1.188rem;
 
         width: 220px;
         height: 55px;
 
-        margin-top: 20px;
+        margin-top: 3%;
     }
+
+    /********************* Home -> Contact ***********************/
 
     #homecontact {
-        height: 750px;
+        height: 80%;
     }
 
+    /***** Home -> Contact: Text ******/
+
     #homecontact h1 {
-        font-size: 50px;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        font-size: 3.125rem;
+        padding-top: 7%;
+        padding-bottom: 7%;
     }
 
     #homecontact h2 {
-        font-size: 28px;
+        font-size: 1.750rem;
     }
 
-    /********************* Project Pages *********************/
+    /***** Home -> Contact: Icons ******/
+
+    #home-socialicons img {
+        margin-top: 70%;
+        max-width: 40px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    /********************************************* Project Pages **********************************************/
 
     /** Header **/
     .projects-header {
