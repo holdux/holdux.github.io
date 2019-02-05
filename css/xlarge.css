@@ -7,34 +7,32 @@
     /***************** Global Styles -> Navbar: Default *****************/
 
     #myNavbar {
-        font-size: 28px;
-        margin-top: 25px;
+        font-size: 1.750em;
     }
 
     /*************************************************** Home *************************************************/
 
-    /****** Header *******/
-
-    header {
-        height: 100%;
-    }
+    /********************** Home -> Header **********************/
 
     #homeheader {
         padding-left: 0;
     }
 
+    /**** Home -> Header: Text ****/
+
     #homeheader h1 {
-        font-size: 75px;
+        font-size: 4.063rem;
     }
 
     #homeheader b {
-        font-size: 80px;
+        font-size: 4.688rem;
     }
 
     #homeheader p {
-        font-size: 28px;
-        margin-top: 40px;
+        font-size: 1.750rem;
     }
+
+    /**** Home -> Header: Elements ****/
 
     #headerarrow {
         margin-bottom: 80px;
@@ -44,76 +42,79 @@
         max-width: 45px;
     }
 
-    /***** img *****/
+    /********************* Home -> Sections **********************/
 
-    .home-projects {
-        display: flex;
-        align-items: center;
-    }
-
-    .home-projects img {
-        padding: 0;
-        margin-left: 0;
-    }
+    /**** Home -> Sections: Images *****/
 
     #projeto1 img {
-        max-height: 800px;
+        max-height: 750px;
+
         position: relative;
         left: -100px;
     }
 
     #projeto2 img {
+        max-height: 800px;
+        max-width: 800px;
+
         position: relative;
-        left: -250px;
+        left: -300px;
         top: 20px;
-        max-height: 850px;
-        max-width: 2000px;
+
     }
 
     #projeto3 img {
+        max-height: 680px;
+        max-width: 800px;
+
         position: relative;
-        left: -275px;
-        max-height: 700px;
-        max-width: 2000px;
+        left: -250px;
+
     }
 
-    /***** txt *****/
+    /**** Home -> Sections: Text *****/
 
     .home-projects h2 {
-        font-size: 65px;
+        font-size: 4.063rem;
     }
 
     .home-projects h3 {
-        font-size: 26px;
+        font-size: 1.625rem;
     }
 
     .home-projects h4 {
-        font-size: 22px;
+        font-size: 1.375rem;
     }
 
     .home-projects p {
-        font-size: 23px;
+        font-size: 1.438rem;
     }
+
+    /**** Home -> Sections: Elements *****/
 
     .homebtn {
-        font-size: 20px;
+        font-size: 1.250em;
     }
 
+    /********************* Home -> Contact ***********************/
+
+    /***** Home -> Contact: Text ******/
+
     #homecontact h1 {
-        font-size: 75px;
-        padding-top: 60px;
-        padding-bottom: 60px;
+        font-size: 4.688em;
     }
 
     #homecontact h2 {
-        font-size: 35px;
+        font-size: 2.188em;
     }
+
+    /***** Home -> Contact: Icons ******/
 
     .socialmedia {
-        padding-top: 45px;
+        margin-top: 1%;
     }
 
-    .socialmedia img {
+    #home-socialicons img {
         min-width: 50px;
         margin-left: 30px;
         margin-right: 30px;
