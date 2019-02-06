@@ -67,7 +67,15 @@ header {
   height: 100%;
 }
 
+.index-header {
+  display: flex;
+  flex-direction: column;
+}
+
 #homeheader {
+  display: flex;
+  flex-direction: column;
+
   margin-top: auto;
   margin-bottom: auto;
   padding-left: 6%;
