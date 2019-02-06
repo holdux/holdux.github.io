@@ -22,7 +22,6 @@ links.forEach(link => {
     event.preventDefault()
     links.forEach(item => item.classList.remove('is-selected'))
     link.classList.add('is-selected')
-    console.log(link)
     switch (link.textContent.toLowerCase()) {
       case 'work':
         controlVisibilityItens('education')
