@@ -271,10 +271,9 @@ header {
 
 /********************************************* Project Pages **********************************************/
 
-/****** Projects - Header *******/
+/********************* Project Pages -> Header ***********************/
 
 .projects-header {
-  height: 700px;
   display: flex;
   flex-direction: column;
 
@@ -283,44 +282,43 @@ header {
   text-align: center;
 }
 
-#projects-header {
+.projects-header img {
+  max-height: 450px;
+  padding-bottom: 8%;
+}
+
+#proj-header-content {
   margin-top: auto;
   margin-bottom: auto;
 }
+
+/**** Project Pages -> Header: Text ****/
 
 .projects-header h1 {
   font-size: 1.875em;
   font-weight: 600;
+  margin-bottom: 3%;
 }
 
 .projects-header p {
-  font-size: 25px;
+  font-size: 1.563rem;
   font-weight: 300;
+  margin-bottom: 5%;
 }
 
-.projects-header img {
-  max-height: 450px;
-  padding-bottom: 30px;
-}
-
-#projects-header {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-/****** Projects - Body *******/
+/********************* Project Pages -> Body ***********************/
 
 .projectbody {
   color: #2D2D2D;
   text-align: center;
 }
 
-.projectgoal {
+.column-center {
   padding-top: 90px;
   padding-bottom: 25%;
 }
 
-/**** Text *****/
+/***** Project Pages -> Body: Text *******/
 
 .projectbody h1 {
   font-size: 40px;
@@ -330,7 +328,7 @@ header {
 }
 
 .projectbody h2 {
-  font-size: 34px;
+  font-size: 18px;
   font-family: 'ClearSans', sans-serif;
   font-weight: regular;
   margin-top: 50px;
@@ -367,8 +365,14 @@ header {
   text-decoration: underline;
 }
 
+/********************* Project Pages -> Contact ***********************/
+
 .contactme {
-  padding-bottom: 25%;
+  padding-bottom: 20%;
+}
+
+.contactme img {
+  max-width: 35px;
 }
 
 .contactme a {
@@ -378,24 +382,24 @@ header {
   text-decoration: none;
 }
 
-#social-o {
+#contact-icons {
   margin-top: 15px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
 }
 
-#social-o img {
+#contact-icons img {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 35px;
 }
 
-#arrow {
+#contact-arrow {
   margin-left: 10px;
 }
 
-/***** PorAqui ******/
+/*************************************************** Por Aqui *************************************************/
 
 #poraquiheader {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#17d1ea+0,2649ff+100 */
@@ -467,7 +471,134 @@ header {
   padding-bottom: 30px;
 }
 
-/***** HelpNet ******/
+/*************************************************** Aeon Cybernetics *************************************************/
+
+/******* Header *******/
+#aeon-header {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0026d3+1,000c99+17,060066+47,00205c+72 */
+  background: rgb(0, 38, 211);
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, rgba(0, 38, 211, 1) 1%, rgba(0, 12, 153, 1) 17%, rgba(6, 0, 102, 1) 47%, rgba(0, 32, 92, 1) 72%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(0, 38, 211, 1) 1%, rgba(0, 12, 153, 1) 17%, rgba(6, 0, 102, 1) 47%, rgba(0, 32, 92, 1) 72%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgba(0, 38, 211, 1) 1%, rgba(0, 12, 153, 1) 17%, rgba(6, 0, 102, 1) 47%, rgba(0, 32, 92, 1) 72%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0026d3', endColorstr='#00205c', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+/******* The Company *******/
+.ac-company {
+  margin-bottom: 100px;
+}
+
+.ac-company img {
+  max-width: 200px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+/******* Visual Identity *******/
+
+/** The Logo **/
+.ac-logo h2 {
+  margin-bottom: 20px;
+}
+
+.ac-logo p {
+  margin-top: 20px;
+}
+
+.ac-logo img {
+  max-width: 250px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#ac-logo-dark {
+  background-color: #0A1625;
+  border-radius: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 500px;
+}
+
+/** The Website **/
+
+.moodboards p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.ac-endmb p {
+  margin-top: 0px;
+  margin-bottom: 80px;
+}
+
+.moodboards img {
+  max-width: 300px;
+}
+
+.web-img {
+  max-width: 300px;
+}
+
+/******* Web Presence *******/
+
+/** The Website **/
+.aeon-web img {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+/******* Research *******/
+.ac-research {
+  margin-top: 12%;
+  margin-bottom: 15%;
+}
+
+.ac-research img {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  max-width: 70px;
+}
+
+/******* Data Analysis *******/
+
+.ac-data img {
+  max-width: 220px;
+  max-height: 200px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.ac-data h4 {
+  font-size: 20px;
+  font-family: 'ClearSans', sans-serif;
+  font-weight: 500;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.ac-cell {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.ac-doubts img {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 70px;
+}
+
+.ae-conc {
+  margin-top: 20%;
+}
+
+/*************************************************** HelpNet *************************************************/
 
 /** Header **/
 #helpnetheader {
@@ -637,135 +768,7 @@ header {
   padding-bottom: 15px;
 }
 
-/*************** Aeon Cybernetics ****************/
-
-/******* Header *******/
-#aeon-header {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0026d3+1,000c99+17,060066+47,00205c+72 */
-  background: rgb(0, 38, 211);
-  /* Old browsers */
-  background: -moz-linear-gradient(45deg, rgba(0, 38, 211, 1) 1%, rgba(0, 12, 153, 1) 17%, rgba(6, 0, 102, 1) 47%, rgba(0, 32, 92, 1) 72%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, rgba(0, 38, 211, 1) 1%, rgba(0, 12, 153, 1) 17%, rgba(6, 0, 102, 1) 47%, rgba(0, 32, 92, 1) 72%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, rgba(0, 38, 211, 1) 1%, rgba(0, 12, 153, 1) 17%, rgba(6, 0, 102, 1) 47%, rgba(0, 32, 92, 1) 72%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0026d3', endColorstr='#00205c', GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
-}
-
-/******* The Company *******/
-.ac-company {
-  margin-bottom: 100px;
-}
-
-.ac-company img {
-  max-width: 200px;
-  margin-top: 10px;
-  margin-bottom: 40px;
-}
-
-/******* Visual Identity *******/
-
-/** The Logo **/
-.ac-logo h2 {
-  margin-bottom: 20px;
-}
-
-.ac-logo p {
-  margin-top: 20px;
-}
-
-.ac-logo img {
-  max-width: 250px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-#ac-logo-dark {
-  background-color: #0A1625;
-  border-radius: 15px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: 500px;
-}
-
-/** The Website **/
-
-.moodboards p {
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-.ac-endmb p {
-  margin-top: 0px;
-  margin-bottom: 80px;
-}
-
-.moodboards img {
-  max-width: 300px;
-}
-
-.web-img {
-  max-width: 300px;
-}
-
-/******* Web Presence *******/
-
-/** The Website **/
-.aeon-web img {
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
-/******* Research *******/
-.ac-research {
-  margin-top: 12%;
-  margin-bottom: 15%;
-}
-
-.ac-research img {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  max-width: 70px;
-}
-
-/******* Data Analysis *******/
-
-.ac-data img {
-  max-width: 220px;
-  max-height: 200px;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.ac-data h4 {
-  font-size: 20px;
-  font-family: 'ClearSans', sans-serif;
-  font-weight: 500;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.ac-cell {
-  margin-top: 10%;
-  margin-bottom: 5%;
-}
-
-.ac-doubts img {
-  margin-top: 5%;
-  margin-bottom: 5%;
-  max-width: 70px;
-}
-
-.ae-conc {
-  margin-top: 20%;
-}
-
-
-/****************** About *******************/
+/*************************************************** About *************************************************/
 
 .about-body {
   text-align: center;
