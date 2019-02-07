@@ -150,6 +150,14 @@
         padding-right: 17%;
     }
 
+    .no-top {
+        padding-top: 0;
+    }
+
+    .no-bottom {
+        padding-bottom: 0;
+    }
+
     /********************* Project Pages -> Header ***********************/
 
     .projects-header {
@@ -604,20 +612,20 @@
 
     #aeon-header img {
         max-width: 525px;
+        position: relative;
+        left: -40px;
     }
 
     /**** The Company ****/
-    .ac-company {
-        margin-bottom: 15%;
-    }
 
     .ac-company img {
         margin-top: 5%;
     }
 
     .ac-logo {
-        margin-top: 10%;
-        margin-bottom: 10%;
+        margin-top: 8%;
+        margin-bottom: 0%;
+        padding-bottom: 5%;
     }
 
     /**** Web Presence ****/
@@ -626,10 +634,34 @@
         margin-top: 15%;
     }
 
+    .ac-prototype img {
+        max-width: 400px;
+        position: relative;
+        left: -200px;
+        top: 100px;
+    }
+
+    .ac-prototype p {
+        width: 400px;
+        position: relative;
+        top: 150px;
+        left: -200px;
+        text-align: center;
+    }
+
+    .aeon-web p {
+        margin-bottom: 10%;
+    }
+
     /**** Research ****/
     .ac-research {
         margin-top: 10%;
         margin-bottom: 10%;
+    }
+
+    .research-module {
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     .research-module h3 {
@@ -652,12 +684,24 @@
     }
 
     .adata-cell {
-        margin-top: 5%;
-        margin-bottom: 5%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 5%;
+
+    }
+
+    .ac-data-end {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .ac-data-end p {
+        text-align: center;
     }
 
     .ac-doubts h3 {
-        margin-top: 20%;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 
     .doubts-module img {
@@ -665,7 +709,8 @@
     }
 
     .ae-conc {
-        margin-top: 15%;
+        margin-top: 0%;
     }
+
 
 }
