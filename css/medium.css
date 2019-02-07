@@ -10,6 +10,10 @@
         height: 100%;
     }
 
+    #homeheader {
+        height: 100%;
+    }
+
     /**** Home -> Header: Text ****/
 
     #homeheader h1 {
