@@ -349,6 +349,7 @@
 
     /********************************************* HelpNet **********************************************/
     #helpnetheader img {
+        max-width: 500px;
         position: relative;
         left: -50px;
 
@@ -395,6 +396,10 @@
         text-align: center;
     }
 
+    #hn-journey-lg {
+        margin-bottom: 40px;
+    }
+
     /** User Journey **/
     .hn-j-step p {
         margin: 0;
@@ -414,8 +419,13 @@
         margin-top: 50px;
     }
 
+    .hn-protoimg p {
+        width: 300px;
+        text-align: center;
+    }
+
     .hn-protoimg img {
-        max-width: 500px;
+        max-width: 300px;
         position: relative;
         left: -70px;
     }

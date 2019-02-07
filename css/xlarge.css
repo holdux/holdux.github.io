@@ -263,6 +263,15 @@
         padding-right: 0px;
     }
 
+    .hn-protoimg img {
+        max-width: 400px;
+    }
+
+    #hn-conc h1 {
+        padding-top: 0;
+    }
+
+
     /**************** About ****************/
 
     .about-sm img {
