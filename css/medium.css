@@ -6,6 +6,10 @@
 
     /********************** Home -> Header **********************/
 
+    header {
+        height: 100%;
+    }
+
     /**** Home -> Header: Text ****/
 
     #homeheader h1 {

@@ -63,10 +63,6 @@ a:focus {
 
 /********************** Home -> Header **********************/
 
-header {
-  height: 100%;
-}
-
 .index-header {
   display: flex;
   flex-direction: column;
