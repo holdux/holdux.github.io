@@ -274,10 +274,46 @@
 
 
     /**************** About ****************/
+    #about-header {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+
+    .about-body p {
+        font-size: 20px;
+    }
+
+    .about-body h1 {
+        font-size: 60px;
+    }
+
+    .about-timeline {
+        padding-left: 15%;
+        padding-right: 0;
+    }
 
     .about-sm img {
         margin-left: 17px;
         margin-right: 17px;
     }
 
+    #about-more p {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #profile-img {
+        max-width: 300px;
+    }
+
+    .about-social {
+        margin-top: 5%;
+    }
+
+    .about-social h2 {
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
 }

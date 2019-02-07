@@ -147,12 +147,6 @@
         margin-bottom: 20px;
     }
 
-    .project-body h4 {}
-
-    .projectbody p {
-        font-size: 17px;
-    }
-
     /********************* PorAqui *********************/
 
     /** Research **/
@@ -474,5 +468,17 @@
 
     .about-sm {
         margin-top: 25px;
+    }
+
+    .about-body h1 {
+        font-size: 50px;
+    }
+
+    .about-body h2 {
+        font-size: 22px;
+    }
+
+    .about-social h2 {
+        font-size: 30px;
     }
 }

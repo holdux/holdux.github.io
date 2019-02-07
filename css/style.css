@@ -936,6 +936,12 @@ a:hover {
   border-image: linear-gradient(to bottom, #5B5B5B 60%, rgba(0, 0, 0, 0)) 1 100%;
 }
 
+.timeline-icon {
+  width: 50px;
+  height: 50px;
+}
+
+
 /** Fonts **/
 
 .timeline-item h2 {
@@ -971,12 +977,19 @@ a:hover {
 }
 
 .about-social h2 {
+  font-size: 28px;
   margin-top: 35px;
 }
 
 .about-sm {
   margin-top: 30px;
   margin-bottom: 100px;
+}
+
+.about-sm img {
+  max-width: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .hide-itens {

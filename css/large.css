@@ -505,8 +505,12 @@
 
     /************ About ***************/
     #about-header {
-        padding-left: 250px;
-        padding-right: 250px;
+        padding-left: 18%;
+        padding-right: 18%;
+    }
+
+    .where-img img {
+        max-width: 100%;
     }
 
     .where-part {
@@ -544,8 +548,8 @@
     }
 
     .about-timeline {
-        display: flex;
-        justify-content: center;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
     /****** More about me *******/
@@ -562,6 +566,7 @@
     .about-social {
         display: flex;
         flex-direction: column;
+        margin-top: 15%;
     }
 
     .about-social h2 {
@@ -574,6 +579,21 @@
         margin-right: auto;
     }
 
+    .about-body h1 {
+        font-size: 55px;
+    }
+
+    .about-body h2 {
+        font-size: 25px;
+    }
+
+    .about-body p {
+        font-size: 18px;
+    }
+
+    .about-social h2 {
+        font-size: 30px;
+    }
 
     /****************** Aeon Cybernetics ******************/
 
