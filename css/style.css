@@ -335,7 +335,7 @@ header {
 }
 
 .projectbody h2 {
-  font-size: 18px;
+  font-size: 2rem;
   font-family: 'ClearSans', sans-serif;
   font-weight: regular;
   margin-top: 50px;
@@ -460,7 +460,7 @@ header {
 .pa-compare p {
   font-size: 20px;
   margin-bottom: 50px;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .compare-end p {
