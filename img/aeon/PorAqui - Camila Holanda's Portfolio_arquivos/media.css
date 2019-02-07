@@ -1,0 +1,11 @@
+/*************** Medium devices (tablets, 768px and up) ***************/
+@import url(medium.css);
+
+/*************** Large devices (desktops, 992px and up) ***************/
+@import url(large.css);
+
+/*************** Extra large devices (large desktops, 1920px and up) ***************/
+@import url(xlarge.css);
+
+/*************** Mega large devices (Cinema Display/2k) ***************/
+@import url(mlarge.css);

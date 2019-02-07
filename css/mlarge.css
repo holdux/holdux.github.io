@@ -78,6 +78,45 @@
         font-size: 50px;
     }
 
+    .column-center {
+        padding-top: 7%;
+        padding-bottom: 7%;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    /********************* Project Pages -> Text ***********************/
+
+    .projectbody h1 {
+        font-size: 65px;
+    }
+
+    .projectbody p {
+        font-size: 21px;
+    }
+
+    /********************************************* Por Aqui **********************************************/
+    #poraquiheader img {
+        max-height: 900px;
+    }
+
+    .pa-personas {
+        margin-bottom: 40px;
+    }
+
+    .pa-dev {
+        padding-top: 2%;
+    }
+
+    .carousel-control-prev-icon {
+        left: -30px;
+    }
+
+    .carousel-control-next-icon {
+        left: 30px;
+    }
+
+
     /**************** HelpNet ****************/
     #helpnetheader img {
         position: relative;

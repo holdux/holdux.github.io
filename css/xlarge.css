@@ -163,6 +163,76 @@
         margin-right: 20px;
     }
 
+    .column-center {
+        padding-top: 6%;
+        padding-bottom: 6%;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    /********************* Project Pages -> Text ***********************/
+    .pa-goal {
+        padding-top: 9%;
+    }
+
+    .projectbody h1 {
+        font-size: 60px;
+    }
+
+    .projectbody h2 {
+        font-size: 40px;
+    }
+
+    .projectbody h3 {
+        font-size: 28px;
+    }
+
+    .projectbody p {
+        font-size: 20px;
+    }
+
+    /********************************************* Por Aqui **********************************************/
+
+    #poraquiheader img {
+        max-height: 800px;
+        position: relative;
+        left: -150px;
+    }
+
+    .pa-goal h1 {
+        margin-bottom: 30px;
+    }
+
+    .pa-personas {
+        margin-bottom: 30px;
+    }
+
+    .pa-icons img {
+        max-width: 150px;
+    }
+
+    .pa-carousel p {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 24px;
+    }
+
+    .features p {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 24px;
+    }
+
+    .features img {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .pa-conc h1 {
+        margin-bottom: 35px;
+        padding-top: 0px;
+    }
+
     /**************** HelpNet ****************/
     #helpnetheader img {
         max-width: 1000px;

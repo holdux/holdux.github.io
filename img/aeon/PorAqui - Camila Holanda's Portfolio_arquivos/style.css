@@ -1,0 +1,988 @@
+/********************************************** Global Styles *********************************************/
+
+html,
+body {
+  height: 100%;
+  font-size: 100%;
+}
+
+/********************** Global Styles -> Fonts **********************/
+
+@font-face {
+  font-family: 'ClearSans';
+  font-weight: bold;
+  src: url('../fonts/ClearSans-Bold.ttf') format('woff'),
+    url('/..fonts/ClearSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ClearSans';
+  font-weight: regular;
+  src: url('../fonts/ClearSans-Regular.ttf') format('woff'),
+    url('/..fonts/ClearSans-Regular.ttf') format('truetype');
+}
+
+/***************** Global Styles -> Navbar: Default *****************/
+
+#myNavbar {
+  font-size: 1.375rem;
+  font-family: 'Raleway', sans-serif;
+  color: #5b5b5b;
+}
+
+a.menu-item {
+  color: #5b5b5b;
+}
+
+a.nav-active {
+  font-weight: 500;
+  color: #2d2d2d;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #2d2d2d;
+}
+
+/***************** Global Styles -> Project Page *****************/
+
+#projects-navbar a.menu-item {
+  color: #fff;
+}
+
+#projects-navbar a.nav-active {
+  color: #fff;
+}
+
+#projects-navbar a:hover,
+a:focus {
+  opacity: 0.6;
+}
+
+/*************************************************** Home *************************************************/
+
+/********************** Home -> Header **********************/
+
+header {
+  height: 100%;
+}
+
+.index-header {
+  display: flex;
+  flex-direction: column;
+}
+
+#homeheader {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 6%;
+}
+
+/**** Home -> Header: Text ****/
+
+#homeheader h1 {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.875rem;
+  font-weight: 200;
+  color: #2d2d2d;
+  line-height: 1.6;
+}
+
+#homeheader b {
+  font-weight: 600;
+  font-size: 2.250rem;
+}
+
+#homeheader p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.250rem;
+  font-weight: 300;
+  margin-top: 10%;
+}
+
+#homeheader a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+/**** Home -> Header: Elements ****/
+
+#headerarrow {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: 40px;
+}
+
+#headerarrow img {
+  max-width: 35px;
+  max-height: 35px;
+}
+
+/********************* Home -> Sections **********************/
+
+.home-projects {
+  color: #fff;
+  text-align: center;
+  padding-top: 18%;
+  padding-bottom: 18%;
+}
+
+.home-projects img {
+  max-height: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#projeto1 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#17d1ea+0,2649ff+100 */
+  background: rgb(23, 209, 234);
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(23, 209, 234, .95) 0%, rgba(38, 73, 255, .95) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(23, 209, 234, .95) 0%, rgba(38, 73, 255, .95) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(23, 209, 234, .95) 0%, rgba(38, 73, 255, 0.95) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#17d1ea', endColorstr='#2649ff', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+#projeto2 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0026d3+1,000c99+17,060066+47,00205c+72 */
+  background: rgb(0, 38, 211);
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, rgba(0, 38, 211, 1) 1%, rgba(0, 12, 153, 1) 17%, rgba(6, 0, 102, 1) 47%, rgba(0, 32, 92, 1) 72%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(0, 38, 211, 1) 1%, rgba(0, 12, 153, 1) 17%, rgba(6, 0, 102, 1) 47%, rgba(0, 32, 92, 1) 72%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgba(0, 38, 211, 1) 1%, rgba(0, 12, 153, 1) 17%, rgba(6, 0, 102, 1) 47%, rgba(0, 32, 92, 1) 72%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0026d3', endColorstr='#00205c', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+#projeto3 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#42e5b1+0,3ecea7+27,3bb8b8+68,3bb8b8+99 */
+  background: rgb(66, 229, 177);
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, rgba(66, 229, 177, 1) 0%, rgba(62, 206, 167, 1) 27%, rgba(59, 184, 184, 1) 68%, rgba(59, 184, 184, 1) 99.74%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(66, 229, 177, 1) 0%, rgba(62, 206, 167, 1) 27%, rgba(59, 184, 184, 1) 68%, rgba(59, 184, 184, 1) 99.74%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgba(66, 229, 177, 1) 0%, rgba(62, 206, 167, 1) 27%, rgba(59, 184, 184, 1) 68%, rgba(59, 184, 184, 1) 99.74%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#42e5b1', endColorstr='#3bb8b8', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+
+/**** Home -> Sections: Text *****/
+
+.home-projects h2 {
+  font-size: 2.375rem;
+  font-family: 'ClearSans', sans-serif;
+  font-weight: bold;
+  padding-top: 10%;
+}
+
+.home-projects h3 {
+  font-size: 1.250rem;
+  font-family: 'ClearSans', sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255, .65);
+  padding-top: 3%;
+}
+
+.home-projects h4 {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255, .85);
+  padding-top: 1%;
+}
+
+.home-projects p {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.125rem;
+  padding-top: 5%;
+
+}
+
+/**** Home -> Sections: Elements *****/
+
+.homebtn {
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  border-color: #fff;
+
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'Muli', sans-serif;
+  font-size: 1.125rem;
+  color: #fff;
+
+  margin-top: 7%;
+}
+
+.homebtn:hover {
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, .2);
+}
+
+/********************* Home -> Contact ***********************/
+
+#homecontact {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #2d2d2d;
+  text-align: center;
+}
+
+/***** Home -> Contact: Text ******/
+
+#homecontact h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2.500rem;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#homecontact h2 {
+  font-size: 1.375rem;
+  font-family: 'Muli', sans-serif;
+  font-weight: 200;
+}
+
+/***** Home -> Contact: Icons ******/
+
+.socialmedia {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#home-socialicons img {
+  margin-top: 60%;
+  max-width: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/********************************************* Project Pages **********************************************/
+
+/********************* Project Pages -> Header ***********************/
+
+.projects-header {
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'Muli', sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+.projects-header img {
+  max-height: 450px;
+  padding-bottom: 8%;
+}
+
+#proj-header-content {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/**** Project Pages -> Header: Text ****/
+
+.projects-header h1 {
+  font-size: 1.875em;
+  font-weight: 600;
+  margin-bottom: 3%;
+}
+
+.projects-header p {
+  font-size: 1.563rem;
+  font-weight: 300;
+  margin-bottom: 5%;
+}
+
+/********************* Project Pages -> Body ***********************/
+
+.projectbody {
+  color: #2D2D2D;
+  text-align: center;
+}
+
+.column-center {
+  padding-top: 90px;
+  padding-bottom: 25%;
+}
+
+/***** Project Pages -> Body: Text *******/
+
+.projectbody h1 {
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+
+.projectbody h2 {
+  font-size: 2rem;
+  font-family: 'ClearSans', sans-serif;
+  font-weight: regular;
+  margin-top: 50px;
+  margin-bottom: 45px;
+}
+
+.projectbody h3 {
+  font-size: 22px;
+  font-family: 'ClearSans', sans-serif;
+  font-weight: regular;
+  margin-bottom: 20px;
+}
+
+.projectbody h4 {
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  margin-top: 15%;
+}
+
+.projectbody p {
+  font-family: 'Muli', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 2;
+}
+
+.projectbody b {
+  font-weight: 600;
+}
+
+.projectbody a {
+  color: #2D2D2D;
+  text-decoration: underline;
+}
+
+/********************* Project Pages -> Contact ***********************/
+
+.contactme {
+  padding-bottom: 20%;
+}
+
+.contactme img {
+  max-width: 35px;
+}
+
+.contactme a {
+  color: #7D7D7D;
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+#contact-icons {
+  margin-top: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#contact-icons img {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 35px;
+}
+
+#contact-arrow {
+  margin-left: 10px;
+}
+
+/*************************************************** Por Aqui *************************************************/
+
+#poraquiheader {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#17d1ea+0,2649ff+100 */
+  background: rgb(23, 209, 234);
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(23, 209, 234, .95) 0%, rgba(38, 73, 255, .95) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(23, 209, 234, .95) 0%, rgba(38, 73, 255, .95) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(23, 209, 234, .95) 0%, rgba(38, 73, 255, 0.95) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#17d1ea', endColorstr='#2649ff', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+.disclaimer p {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.pa-icons img {
+  max-width: 80px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+/** Research ***/
+
+.pa-research img {
+  max-width: 80px;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+/** Development ***/
+
+.pa-dev {
+  padding-top: 15%;
+  padding-bottom: 10px;
+}
+
+.pa-delv h3 {
+  margin-top: 30px;
+
+}
+
+.pa-compare img {
+  max-height: 550px;
+}
+
+.pa-compare p {
+  font-size: 20px;
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+.compare-end p {
+  margin-bottom: 20px;
+}
+
+.cocoen {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pa-conc h1 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+/*************************************************** Aeon Cybernetics *************************************************/
+
+/******* Header *******/
+#aeon-header {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0026d3+1,000c99+17,060066+47,00205c+72 */
+  background: rgb(0, 38, 211);
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, rgba(0, 38, 211, 1) 1%, rgba(0, 12, 153, 1) 17%, rgba(6, 0, 102, 1) 47%, rgba(0, 32, 92, 1) 72%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(0, 38, 211, 1) 1%, rgba(0, 12, 153, 1) 17%, rgba(6, 0, 102, 1) 47%, rgba(0, 32, 92, 1) 72%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgba(0, 38, 211, 1) 1%, rgba(0, 12, 153, 1) 17%, rgba(6, 0, 102, 1) 47%, rgba(0, 32, 92, 1) 72%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0026d3', endColorstr='#00205c', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+/******* The Company *******/
+.ac-company {
+  margin-bottom: 100px;
+}
+
+.ac-company img {
+  max-width: 200px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+/******* Visual Identity *******/
+
+/** The Logo **/
+.ac-logo h2 {
+  margin-bottom: 20px;
+}
+
+.ac-logo p {
+  margin-top: 20px;
+}
+
+.ac-logo img {
+  max-width: 250px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#ac-logo-dark {
+  background-color: #0A1625;
+  border-radius: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 500px;
+}
+
+/** The Website **/
+
+.moodboards p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.ac-endmb p {
+  margin-top: 0px;
+  margin-bottom: 80px;
+}
+
+.moodboards img {
+  max-width: 300px;
+}
+
+.web-img {
+  max-width: 300px;
+}
+
+/******* Web Presence *******/
+
+/** The Website **/
+.aeon-web img {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+/******* Research *******/
+.ac-research {
+  margin-top: 12%;
+  margin-bottom: 15%;
+}
+
+.ac-research img {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  max-width: 70px;
+}
+
+/******* Data Analysis *******/
+
+.ac-data img {
+  max-width: 220px;
+  max-height: 200px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.ac-data h4 {
+  font-size: 20px;
+  font-family: 'ClearSans', sans-serif;
+  font-weight: 500;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.ac-cell {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.ac-doubts img {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 70px;
+}
+
+.ae-conc {
+  margin-top: 20%;
+}
+
+/*************************************************** HelpNet *************************************************/
+
+/** Header **/
+#helpnetheader {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#42e5b1+0,3ecea7+27,3bb8b8+68,3bb8b8+99 */
+  background: rgb(66, 229, 177);
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, rgba(66, 229, 177, 1) 0%, rgba(62, 206, 167, 1) 27%, rgba(59, 184, 184, 1) 68%, rgba(59, 184, 184, 1) 99.74%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(66, 229, 177, 1) 0%, rgba(62, 206, 167, 1) 27%, rgba(59, 184, 184, 1) 68%, rgba(59, 184, 184, 1) 99.74%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgba(66, 229, 177, 1) 0%, rgba(62, 206, 167, 1) 27%, rgba(59, 184, 184, 1) 68%, rgba(59, 184, 184, 1) 99.74%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#42e5b1', endColorstr='#3bb8b8', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+#helpnetheader img {
+  margin-top: 0;
+}
+
+#hn-goal {
+  padding-top: 80px;
+  padding-bottom: 0;
+}
+
+/** Research **/
+
+#doctoricon img {
+  max-width: 100px;
+}
+
+#hn-h1-mobile {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0;
+}
+
+/** Journey **/
+
+#hn-journey {
+  padding-top: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#hn-journey-carousel {
+  padding-top: 30px;
+}
+
+#hn-journey-carousel img {
+  max-width: 100px;
+}
+
+#hn-journey-carousel p {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#hn-j-right {
+  position: relative;
+  top: -30px;
+}
+
+#hn-j-left {
+  position: relative;
+  top: -30px;
+}
+
+.hn-j-step img {
+  max-width: 70px !important;
+
+}
+
+/** Scenarios **/
+
+.carousel-indicators .active {
+  background-color: rgb(45, 45, 45);
+}
+
+.carousel-indicators li {
+  background-color: rgb(45, 45, 45, 0.6);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232D2D2D' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  position: relative;
+
+  top: -300px;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232D2D2D' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  position: relative;
+  left: 0px;
+  top: -300px;
+}
+
+
+#hn-scenarios h2 {
+  margin-top: 20px;
+  margin-bottom: 55px;
+}
+
+#hn-carousel img {
+  max-width: 200px;
+
+}
+
+#hn-carousel h3 {
+  font-size: 26px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+}
+
+#hn-carousel p {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 55px;
+}
+
+.hn-j-carousel {
+  margin-bottom: 20px;
+}
+
+#hn-c-left {
+  position: relative;
+  left: -5px;
+  top: -350px;
+}
+
+#hn-c-right {
+  position: relative;
+  top: -350px;
+}
+
+/** Solution **/
+#hn-sol {
+  padding-bottom: 30px;
+}
+
+.hn-protoimg img {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  max-width: 300px;
+}
+
+#hn-interface h3 {
+  padding-top: 20px;
+}
+
+/** Conclusion **/
+
+#hn-conc h1 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#hn-conc h3 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+/*************************************************** About *************************************************/
+
+.about-body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-body header {
+  height: auto;
+}
+
+.about-body h1 {
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+
+.about-body h2 {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.about-body p {
+  font-family: 'Muli', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 2;
+}
+
+.about-body b {
+  font-weight: 700;
+}
+
+.about-content a {
+  color: #2D2D2D;
+  text-decoration: underline;
+}
+
+/********** Header *********/
+#about-header {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#about-header h1 {
+  padding-top: 50px;
+}
+
+/********** Where I've been *********/
+
+/*** Filter ***/
+
+.about-filter a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #979797;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.about-filter a:focus,
+a:hover {
+  font-weight: 600;
+  color: #2D2D2D;
+}
+
+.about-filter p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #979797;
+}
+
+/*** Timeline **/
+
+#about-where {
+  margin-top: 80px;
+}
+
+.timeline-header {
+  margin-bottom: 60px;
+}
+
+.about-timeline {
+  margin-top: 60px;
+  max-width: 1024px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.timeline-item {
+  text-align: left;
+  padding: 3em 2em 2em;
+  position: relative;
+  border-left: 1px solid #5B5B5B;
+}
+
+.timeline-title {
+  width: 100%;
+}
+
+.timeline-item img {
+  float: left;
+  max-width: 50px;
+  padding-top: 0px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.timeline-body {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.timeline-item::before {
+  content: attr(date-is);
+  position: absolute;
+  left: 1.7em;
+  top: -0.7em;
+  display: block;
+  font-family: 'Clear Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.timeline-item::after {
+  width: 15px;
+  display: block;
+  top: 0em;
+  position: absolute;
+  left: 0px;
+  content: '';
+  border: 1px solid #5B5B5B;
+}
+
+.timeline-item:last-child {
+  -o-border-image: linear-gradient(to bottom, #5B5B5B 60%, rgba(0, 0, 0, 0)) 1 100%;
+  border-image: linear-gradient(to bottom, #5B5B5B 60%, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+/** Fonts **/
+
+.timeline-item h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.timeline-item h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/********** More about me *********/
+#about-more {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#about-more h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#profile-img {
+  border-radius: 50%;
+  max-width: 200px;
+}
+
+.about-social {
+  margin-top: 40px;
+}
+
+.about-social h2 {
+  margin-top: 35px;
+}
+
+.about-sm {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.hide-itens {
+  opacity: .2;
+  transition: opacity .3s ease-out;
+  -moz-transition: opacity .3s ease-out;
+  -webkit-transition: opacity .3s ease-out;
+  -o-transition: opacity .3s ease-out;
+}
+
+.show-itens {
+  opacity: 1;
+  transition: opacity .3s ease-out;
+  -moz-transition: opacity .3s ease-out;
+  -webkit-transition: opacity .3s ease-out;
+  -o-transition: opacity .3s ease-out;
+}
+
+.is-selected,
+.is-selected:hover {
+  font-weight: 600 !important;
+  color: #2D2D2D !important;
+}
