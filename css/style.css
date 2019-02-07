@@ -319,7 +319,15 @@ a:focus {
 
 .column-center {
   padding-top: 90px;
-  padding-bottom: 25%;
+  padding-bottom: 20%;
+}
+
+.no-top {
+  padding-top: 0;
+}
+
+.no-bottom {
+  padding-bottom: 0;
 }
 
 /***** Project Pages -> Body: Text *******/
@@ -495,9 +503,14 @@ a:focus {
   /* IE6-9 fallback on horizontal gradient */
 }
 
+#aeon-header img {
+  margin-top: 25%;
+  margin-bottom: 5%;
+}
+
 /******* The Company *******/
 .ac-company {
-  margin-bottom: 100px;
+  padding-top: 0;
 }
 
 .ac-company img {
@@ -554,6 +567,10 @@ a:focus {
 }
 
 /******* Web Presence *******/
+.ac-webp h2 {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /** The Website **/
 .aeon-web img {
@@ -578,8 +595,6 @@ a:focus {
 .ac-data img {
   max-width: 220px;
   max-height: 200px;
-  margin-top: 5%;
-  margin-bottom: 5%;
 }
 
 .ac-data h4 {
@@ -656,7 +671,7 @@ a:focus {
 }
 
 #hn-journey-carousel img {
-  max-width: 100px;
+  max-width: 80px;
 }
 
 #hn-journey-carousel p {
@@ -666,12 +681,12 @@ a:focus {
 
 #hn-j-right {
   position: relative;
-  top: -30px;
+  top: -50px;
 }
 
 #hn-j-left {
   position: relative;
-  top: -30px;
+  top: -50px;
 }
 
 .hn-j-step img {
@@ -728,8 +743,6 @@ a:focus {
 }
 
 #hn-carousel p {
-  padding-left: 30px;
-  padding-right: 30px;
   padding-bottom: 55px;
 }
 
@@ -739,13 +752,14 @@ a:focus {
 
 #hn-c-left {
   position: relative;
-  left: -5px;
-  top: -350px;
+  left: -10px;
+  top: -310px;
 }
 
 #hn-c-right {
   position: relative;
-  top: -350px;
+  left: 10px;
+  top: -310px;
 }
 
 /** Solution **/
@@ -754,7 +768,7 @@ a:focus {
 }
 
 .hn-protoimg img {
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 30px;
   max-width: 300px;
 }
