@@ -116,6 +116,15 @@
         left: 30px;
     }
 
+    .pa-carousel p {
+        font-size: 26px;
+        margin-bottom: 60px;
+    }
+
+    .features p {
+        font-size: 26px;
+    }
+
 
     /**************** HelpNet ****************/
     #helpnetheader img {
