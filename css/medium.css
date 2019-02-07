@@ -10,10 +10,6 @@
         height: 100%;
     }
 
-    #homeheader {
-        height: 100%;
-    }
-
     /**** Home -> Header: Text ****/
 
     #homeheader h1 {
@@ -112,6 +108,7 @@
         padding-bottom: 55px;
     }
 
+
     /**** Project Pages -> Header: Text ****/
 
     .projects-header h1 {
@@ -123,6 +120,17 @@
     }
 
     /********************* Project Pages -> Body ***********************/
+
+    .column-center {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    #projects-header img {
+        max-width: 600px;
+    }
 
     /***** Project Pages -> Body: Text *******/
 
@@ -263,11 +271,6 @@
         margin-right: 10%;
     }
 
-    .pa-conc p {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
     .contactme {
         padding-bottom: 100px;
     }
@@ -359,14 +362,7 @@
     }
 
     /********************* Aeon *********************/
-    .column-center {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
 
-    #projects-header img {
-        max-width: 600px;
-    }
 
     /********* Visual Identity *********/
 

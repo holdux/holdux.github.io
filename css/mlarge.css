@@ -129,6 +129,10 @@
         font-size: 26px;
     }
 
+    .pa-conc {
+        padding-top: 4%;
+    }
+
 
     /**************** HelpNet ****************/
     #helpnetheader img {

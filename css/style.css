@@ -62,11 +62,9 @@ a:focus {
 /*************************************************** Home *************************************************/
 
 /********************** Home -> Header **********************/
-.index-header {
-  height: 100%;
-}
 
 .index-header {
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -309,7 +307,7 @@ a:focus {
 .projects-header p {
   font-size: 1.563rem;
   font-weight: 300;
-  margin-bottom: 15%;
+  margin-bottom: 20%;
 }
 
 /********************* Project Pages -> Body ***********************/
@@ -472,8 +470,11 @@ a:focus {
   margin-right: auto;
 }
 
+.pa-conc {
+  padding-top: 50px;
+}
+
 .pa-conc h1 {
-  padding-top: 70px;
   padding-bottom: 30px;
 }
 
