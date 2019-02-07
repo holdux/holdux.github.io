@@ -199,6 +199,10 @@
         padding-bottom: 20px;
     }
 
+    .pa-research {
+        margin-bottom: 5%;
+    }
+
     .pa-research img {
         margin-bottom: 40px;
     }
@@ -212,7 +216,7 @@
     /** Development **/
 
     .pa-dev {
-        padding-top: 100px;
+        padding-top: 5%;
         padding-bottom: 40px;
         display: flex;
         flex-direction: column;
@@ -245,6 +249,13 @@
     }
 
     /** Carousel **/
+    .carousel-control-prev-icon {
+        left: -5px;
+    }
+
+    .carousel-control-next-icon {
+        left: 5px;
+    }
 
     .pa-carousel {
         display: flex;
@@ -275,7 +286,11 @@
     }
 
     /** Delivery **/
-    .pa-dev h1 {
+    .pa-delv {
+        padding-top: 5%;
+    }
+
+    .pa-delv h1 {
         padding-bottom: 0;
     }
 
@@ -547,8 +562,8 @@
     .column-center {
         padding-top: 10%;
         padding-bottom: 10%;
-        padding-left: 20%;
-        padding-right: 20%;
+        padding-left: 17%;
+        padding-right: 17%;
     }
 
     .column-center-lg {
