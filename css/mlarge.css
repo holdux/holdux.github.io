@@ -143,19 +143,35 @@
 
     /****** More about me *******/
 
+
+    #about-header {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
     #about-more {
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 10%;
+        margin-right: 10%;
         margin-bottom: 5%;
         margin-top: 5%;
     }
 
     #about-more h2 {
-        font-size: 30px;
+        font-size: 38px;
+        margin-bottom: 2%;
     }
 
     .about-sm {
         margin-top: 0;
         padding-top: 5%;
+    }
+
+    .about-body h1 {
+        font-size: 65px;
+        margin-bottom: 3%;
+    }
+
+    .about-body p {
+        font-size: 21px;
     }
 }

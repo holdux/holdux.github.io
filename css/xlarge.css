@@ -289,6 +289,10 @@
         font-size: 60px;
     }
 
+    .timeline-item h3 {
+        font-size: 20px;
+    }
+
     .about-timeline {
         padding-left: 15%;
         padding-right: 0;
@@ -313,7 +317,12 @@
     }
 
     .about-social h2 {
+        font-size: 35px;
         margin-top: 10%;
         margin-bottom: 5%;
+    }
+
+    .about-sm img {
+        max-width: 50px;
     }
 }
