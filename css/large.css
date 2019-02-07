@@ -185,10 +185,14 @@
     }
 
     .projectbody p {
-        font-size: 17px;
+        font-size: 18px;
     }
 
     /******** PorAqui *********/
+
+    #poraquiheader img {
+        max-height: 600px;
+    }
 
     /** Research **/
     #bigger-icon img {
@@ -235,7 +239,9 @@
     }
 
     .pa-icons img {
-        max-width: 130px;
+        max-width: 100px;
+        position: relative;
+        left: 30px;
     }
 
     /** Carousel **/
@@ -247,26 +253,25 @@
     }
 
     .pa-carousel img {
-        max-height: 650px;
+        max-height: 580px;
     }
 
     .pa-carousel p {
-        font-size: 26px;
+        font-size: 24px;
         text-align: center;
 
-        margin-top: 40px;
+        margin-top: 30px;
         margin-bottom: 60px;
     }
 
     .features img {
-        max-height: 650px;
+        max-height: 580px;
         margin-top: 20px;
     }
 
     .features p {
         font-size: 24px;
         margin-top: 25px;
-        font-weight: 400;
     }
 
     /** Delivery **/
