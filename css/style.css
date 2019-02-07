@@ -508,6 +508,10 @@ a:focus {
   margin-bottom: 5%;
 }
 
+#aeon-info p {
+  font-style: italic;
+}
+
 /******* The Company *******/
 .ac-company {
   padding-top: 0;
@@ -568,6 +572,7 @@ a:focus {
 
 /******* Web Presence *******/
 .ac-webp h2 {
+  margin-bottom: 10%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -575,19 +580,13 @@ a:focus {
 /** The Website **/
 .aeon-web img {
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 
 /******* Research *******/
 .ac-research {
   margin-top: 12%;
   margin-bottom: 15%;
-}
-
-.ac-research img {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  max-width: 70px;
 }
 
 /******* Data Analysis *******/
@@ -610,6 +609,11 @@ a:focus {
   margin-bottom: 5%;
 }
 
+.ac-doubts {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
 .ac-doubts img {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -617,7 +621,19 @@ a:focus {
 }
 
 .ae-conc {
-  margin-top: 20%;
+  margin-top: 0;
+  padding-top: 20%;
+}
+
+.research-module img {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  max-width: 70px;
+}
+
+.ac-data-end {
+  padding-top: 10%;
+  padding-bottom: 0;
 }
 
 /*************************************************** HelpNet *************************************************/
