@@ -309,7 +309,7 @@ a:focus {
 .projects-header p {
   font-size: 1.563rem;
   font-weight: 300;
-  margin-bottom: 15%;
+  margin-bottom: 100px;
 }
 
 /********************* Project Pages -> Body ***********************/
