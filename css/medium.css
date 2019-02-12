@@ -273,8 +273,12 @@
         margin-right: 10%;
     }
 
+    #contact-icons {
+        margin-bottom: 5%;
+    }
+
     .contactme {
-        padding-bottom: 100px;
+        padding-bottom: 60px;
     }
 
     .contactme h4 {
@@ -368,6 +372,10 @@
         margin-top: 10%;
         padding-bottom: 10px;
         max-width: 650px;
+    }
+
+    #aeon-info p {
+        font-size: 15px;
     }
 
     /********* Visual Identity *********/
