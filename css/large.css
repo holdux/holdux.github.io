@@ -616,6 +616,10 @@
         left: -40px;
     }
 
+    #aeon-info p {
+        font-size: 16px;
+    }
+
     /**** The Company ****/
 
     .ac-company img {
@@ -629,27 +633,48 @@
     }
 
     /**** Web Presence ****/
+    .webp-column {
+        padding-left: 15%;
+        padding-right: 15%;
+        margin: 0;
+    }
+
+    .ac-web-structure {
+        padding-top: 5%;
+    }
+
+    .aeon-web {
+        padding-left: 10%;
+    }
+
+    .ac-prototype {
+        padding-top: 150px;
+    }
+
+    .aeon-web h3 {
+        text-align: left;
+        margin-top: 10%;
+    }
 
     .ac-webp {
         margin-top: 15%;
         padding-left: 5%;
-        padding-right: 5%;
+        padding-right: 10%;
+    }
+
+    .ac-prototype {
+        display: flex;
+        flex-direction: column;
     }
 
     .ac-prototype img {
         max-width: 400px;
-        margin-top: 50px;
     }
 
     .ac-prototype p {
         width: 400px;
         text-align: center;
         padding-top: 10%;
-    }
-
-    .aeon-web p {
-        margin-bottom: 10%;
-        margin-left: 10%;
     }
 
     /**** Research ****/
@@ -668,6 +693,16 @@
     }
 
     /**** Data Analysis ****/
+
+    .adata-cell h4 {
+        margin-bottom: 5%;
+        margin-top: 20px;
+    }
+
+    .first-cell h4 {
+        margin-top: 0;
+        padding-top: 0;
+    }
 
     .ac-data h3 {
         margin-top: 7%;

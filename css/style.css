@@ -591,6 +591,13 @@ a:focus {
 }
 
 /******* Data Analysis *******/
+.ac-interest {
+  margin-bottom: 80px;
+}
+
+.ac-illustration {
+  margin-bottom: 30px;
+}
 
 .ac-data img {
   max-width: 220px;

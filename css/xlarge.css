@@ -170,6 +170,11 @@
         padding-right: 8%;
     }
 
+    .column-center-lg {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
     /********************* Project Pages -> Text ***********************/
     .pa-goal {
         padding-top: 9%;
@@ -231,6 +236,103 @@
     .pa-conc h1 {
         margin-bottom: 35px;
         padding-top: 0px;
+    }
+
+    /********************************************* Aeon Cybernetics **********************************************/
+    /**************** Concept ****************/
+    .no-top {
+        padding-top: 0;
+    }
+
+    .no-bottom {
+        padding-bottom: 0;
+    }
+
+    .projectbody h1 {
+        padding-bottom: 60px;
+    }
+
+    #aeon-header img {
+        max-width: 750px;
+        left: -250px;
+    }
+
+    #aeon-info p {
+        font-size: 17px;
+        margin-top: 15px;
+    }
+
+    /**************** The Company ****************/
+    .ac-company img {
+        max-width: 250px;
+        margin-bottom: 80px;
+    }
+
+    /**************** Visual Identity ****************/
+    .ac-visid {
+        padding-left: 70px;
+        padding-right: 55px;
+    }
+
+    .ac-logo img {
+        max-width: 250px;
+    }
+
+    #ac-logo-dark {
+        padding-top: 65px;
+        padding-bottom: 65px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .moodboards img {
+        max-width: 400px;
+    }
+
+    .webp-column {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .ac-webp {
+        margin-top: 10%;
+    }
+
+    /**************** Web Presence ****************/
+
+    .ac-prototype img {
+        max-width: 500px;
+        position: relative;
+        left: -200px;
+    }
+
+    .ac-prototype p {
+
+        position: relative;
+        left: -150px;
+    }
+
+    .aeon-web {
+        padding-left: 5%;
+    }
+
+    /**************** Research ****************/
+    .research-img img {
+        max-width: 90px;
+    }
+
+    /**************** Data Analysis ****************/
+    .ac-data img {
+        max-width: 275px;
+        max-height: 275px;
+    }
+
+    .ac-data h4 {
+        font-size: 24px;
+    }
+
+    .doubts-module img {
+        max-width: 90px;
     }
 
     /**************** HelpNet ****************/
