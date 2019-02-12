@@ -518,4 +518,12 @@
     .about-social h2 {
         font-size: 30px;
     }
+
+    .timeline-item img {
+        max-width: 55px;
+    }
+
+    .timeline-body p {
+        padding-left: 75px;
+    }
 }

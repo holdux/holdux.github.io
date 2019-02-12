@@ -316,6 +316,10 @@
         padding-left: 5%;
     }
 
+    .aeon-web p {
+        width: 490px;
+    }
+
     /**************** Research ****************/
     .research-img img {
         max-width: 90px;
@@ -415,12 +419,12 @@
     }
 
     .about-social {
-        margin-top: 5%;
+        margin-top: 8%;
     }
 
     .about-social h2 {
         font-size: 35px;
-        margin-top: 10%;
+        margin-top: 15%;
         margin-bottom: 5%;
     }
 

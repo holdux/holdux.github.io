@@ -564,6 +564,15 @@
         padding-right: 15%;
     }
 
+    .timeline-item img {
+        max-width: 60px;
+    }
+
+
+    .timeline-body p {
+        padding-left: 80px;
+    }
+
     /****** More about me *******/
 
     #about-more {
